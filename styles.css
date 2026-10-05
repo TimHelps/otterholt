@@ -53,15 +53,6 @@ body {
   text-transform: uppercase;
 }
 
-h1 {
-  margin: 0;
-  color: #17231f;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.65rem, 5vw, 2.25rem);
-  font-weight: 500;
-  line-height: 1;
-}
-
 .icon-button {
   width: 34px;
   height: 34px;
@@ -209,14 +200,15 @@ h1 {
 
 select {
   width: 100%;
-  min-height: 44px;
+  min-height: 40px;
   padding: 0 34px 0 12px;
   border: 1px solid #b8c8c1;
   border-radius: 10px;
   background: #fff;
   color: #17231f;
-  font: inherit;
-  font-weight: 650;
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -331,8 +323,19 @@ select:focus-visible {
     top: 10px;
     left: 10px;
     width: calc(100vw - 20px);
-    padding: 16px;
+    padding: 14px 16px;
     border-radius: 16px;
+  }
+
+  .layer-toggles,
+  .controls,
+  .pool-operators,
+  .price-legend {
+    margin-top: 12px;
+  }
+
+  .title-row .eyebrow {
+    margin-bottom: 0;
   }
 }
 
