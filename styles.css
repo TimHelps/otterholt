@@ -39,7 +39,7 @@ body {
 
 .title-row {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 12px;
 }
@@ -188,14 +188,17 @@ body {
   margin-top: 16px;
 }
 
+.controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
 .controls label > span {
-  display: block;
-  min-height: 2.2em;
-  margin-bottom: 7px;
   color: #40554d;
   font-size: 0.78rem;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.15;
 }
 
 select {
@@ -217,11 +220,25 @@ select:focus-visible {
   outline-offset: 1px;
 }
 
+.price-cap {
+  display: block;
+  margin-top: 16px;
+}
+
+.price-cap > span {
+  display: block;
+  margin-bottom: 7px;
+  color: #40554d;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
 .price-legend {
   display: flex;
   align-items: center;
   gap: 9px;
-  margin-top: 16px;
+  margin-top: 12px;
   color: #40554d;
   font-size: 0.76rem;
   font-weight: 650;
@@ -330,6 +347,7 @@ select:focus-visible {
   .layer-toggles,
   .controls,
   .pool-operators,
+  .price-cap,
   .price-legend {
     margin-top: 12px;
   }
@@ -342,9 +360,5 @@ select:focus-visible {
 @media (max-width: 380px) {
   .controls {
     grid-template-columns: 1fr;
-  }
-
-  .controls label > span {
-    min-height: auto;
   }
 }

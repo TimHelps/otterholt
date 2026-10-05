@@ -2,10 +2,12 @@
 
 const DATA_ROOT = "./data/";
 const MINIMUM_SALE_SAMPLES = 10;
+const PRICE_CAP_STEP = 100_000;
 
 const elements = {
   stationSelect: document.querySelector("#station-minutes"),
   poolSelect: document.querySelector("#pool-minutes"),
+  priceCapSelect: document.querySelector("#price-cap"),
   priceLow: document.querySelector("#price-low"),
   priceHigh: document.querySelector("#price-high"),
   status: document.querySelector("#status"),
@@ -100,11 +102,47 @@ function percentile(sortedValues, fraction) {
   return sortedValues[index];
 }
 
+function salePriceCapValues() {
+  const caps = [];
+  for (let cap = 100_000; cap <= 1_000_000; cap += PRICE_CAP_STEP) {
+    caps.push(cap);
+  }
+  return caps;
+}
+
+function populatePriceCapSelect(select, selected) {
+  const caps = salePriceCapValues();
+  const options = [
+    { value: "", label: "No limit" },
+    ...caps.map((cap) => ({ value: String(cap), label: formatPrice(cap) })),
+  ];
+  const selectedValue =
+    selected !== null && caps.includes(selected) ? String(selected) : "";
+  select.replaceChildren(
+    ...options.map(({ value, label }) => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = label;
+      option.selected = value === selectedValue;
+      return option;
+    }),
+  );
+}
+
+function selectedMaxPrice() {
+  const value = elements.priceCapSelect.value;
+  return value ? Number(value) : null;
+}
+
 function updateUrl() {
   const params = new URLSearchParams({
     stationMinutes: elements.stationSelect.value,
     poolMinutes: elements.poolSelect.value,
   });
+  const maxPrice = selectedMaxPrice();
+  if (maxPrice) {
+    params.set("maxPrice", String(maxPrice));
+  }
   history.replaceState(null, "", `${location.pathname}?${params}${location.hash}`);
 }
 
@@ -185,7 +223,6 @@ function updateCandidates() {
     return;
   }
 
-  const values = [];
   const districts = new Map();
 
   for (const point of allCandidates.points) {
@@ -251,8 +288,8 @@ function updateCandidates() {
     }
   }
 
-  const features = Array.from(districts.values(), (district) => {
-    values.push(district.priceValue);
+  const maxPrice = selectedMaxPrice();
+  const allFeatures = Array.from(districts.values(), (district) => {
     return {
       type: "Feature",
       id: district.district,
@@ -284,6 +321,10 @@ function updateCandidates() {
       },
     };
   });
+  const features = maxPrice
+    ? allFeatures.filter((feature) => feature.properties.priceValue <= maxPrice)
+    : allFeatures;
+  const values = features.map((feature) => feature.properties.priceValue);
 
   map.getSource("candidates").setData({
     type: "FeatureCollection",
@@ -537,6 +578,11 @@ async function initialise() {
       options,
       options.includes(requestedPool) ? requestedPool : manifest.defaults.pool,
     );
+    const requestedMaxPrice = Number(queryValue("maxPrice"));
+    populatePriceCapSelect(
+      elements.priceCapSelect,
+      Number.isFinite(requestedMaxPrice) ? requestedMaxPrice : null,
+    );
 
     map.addSource("candidates", {
       type: "geojson",
@@ -551,6 +597,7 @@ async function initialise() {
 
     elements.stationSelect.addEventListener("change", updateCandidates);
     elements.poolSelect.addEventListener("change", updateCandidates);
+    elements.priceCapSelect.addEventListener("change", updateCandidates);
   } catch (error) {
     console.error(error);
     setStatus("Could not load the generated map data.", true);
