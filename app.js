@@ -43,6 +43,7 @@ map.addControl(
 let allCandidates;
 let sales;
 let poolReach;
+let stationReach;
 let poolOperators = [];
 let candidateFieldIndex = {};
 const contextMarkers = { stations: [], pools: [] };
@@ -204,7 +205,8 @@ function updateCandidates() {
       continue;
     }
 
-    const reach = poolReach?.byPostcode?.[postcode] ?? [];
+    const poolReachEntries = poolReach?.byPostcode?.[postcode] ?? [];
+    const stationReachEntries = stationReach?.byPostcode?.[postcode] ?? [];
     const aggregate = districts.get(district);
     if (aggregate) {
       aggregate.longitude += longitude;
@@ -217,11 +219,24 @@ function updateCandidates() {
         latitude,
         postcodeCount: 1,
         priceValue: value,
+        stations: new Map(),
         pools: new Map(),
       });
     }
     const districtAggregate = districts.get(district);
-    for (const [venueIndex, minutes] of reach) {
+    for (const [stationIndex, minutes] of stationReachEntries) {
+      if (minutes > stationMinutes) continue;
+      const station = stationReach.stations[stationIndex];
+      const existing = districtAggregate.stations.get(station.key);
+      if (!existing || minutes < existing.minutes) {
+        districtAggregate.stations.set(station.key, {
+          name: station.name,
+          lines: station.lines,
+          minutes,
+        });
+      }
+    }
+    for (const [venueIndex, minutes] of poolReachEntries) {
       if (minutes > poolMinutes) continue;
       const venue = poolReach.venues[venueIndex];
       if (!enabledOperators.includes(venue.operator)) continue;
@@ -245,6 +260,13 @@ function updateCandidates() {
         district: district.district,
         postcodeCount: district.postcodeCount,
         priceValue: district.priceValue,
+        triggeringStations: JSON.stringify(
+          [...(district.stations?.values() ?? [])].sort(
+            (left, right) =>
+              left.minutes - right.minutes ||
+              left.name.localeCompare(right.name, "en-GB"),
+          ),
+        ),
         triggeringPools: JSON.stringify(
           [...(district.pools?.values() ?? [])].sort(
             (left, right) =>
@@ -398,25 +420,43 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
-function formatTriggeringPools(properties, poolMinutes) {
-  let pools = [];
-  try {
-    pools = JSON.parse(properties.triggeringPools || "[]");
-  } catch {
-    pools = [];
-  }
-  if (!pools.length) {
+function formatReachSection(title, items, formatMeta) {
+  if (!items.length) {
     return "";
   }
-  const items = pools
+  const list = items
     .map(
-      (pool) =>
-        `<li>${escapeHtml(pool.name)} <span class="popup-pool-meta">(${escapeHtml(
-          pool.operatorLabel,
-        )}, ≤${pool.minutes} min)</span></li>`,
+      (item) =>
+        `<li>${escapeHtml(item.name)} <span class="popup-reach-meta">(${formatMeta(
+          item,
+        )})</span></li>`,
     )
     .join("");
-  return `<br><b>Pools within ${poolMinutes} min walk:</b><ul class="popup-pools">${items}</ul>`;
+  return `<br><br><b>${escapeHtml(title)}</b><ul class="popup-reach-list">${list}</ul>`;
+}
+
+function parseReachProperty(properties, key) {
+  try {
+    return JSON.parse(properties[key] || "[]");
+  } catch {
+    return [];
+  }
+}
+
+function formatTriggeringStations(properties, stationMinutes) {
+  return formatReachSection(
+    `Night Tube within ${stationMinutes} min walk:`,
+    parseReachProperty(properties, "triggeringStations"),
+    (station) => `${escapeHtml(station.lines)}, ≤${station.minutes} min`,
+  );
+}
+
+function formatTriggeringPools(properties, poolMinutes) {
+  return formatReachSection(
+    `Pools within ${poolMinutes} min walk:`,
+    parseReachProperty(properties, "triggeringPools"),
+    (pool) => `${escapeHtml(pool.operatorLabel)}, ≤${pool.minutes} min`,
+  );
 }
 
 function showCandidatePopup(feature) {
@@ -428,6 +468,7 @@ function showCandidatePopup(feature) {
           districtSales.flatSaleUpper,
         )}`
       : "No range";
+  const stationMinutes = selectedNumber(elements.stationSelect);
   const poolMinutes = selectedNumber(elements.poolSelect);
 
   new maplibregl.Popup({ offset: 8 })
@@ -438,6 +479,7 @@ function showCandidatePopup(feature) {
       <br><b>${escapeHtml(properties.district)} median flat sale:</b>
       ${formatPrice(districtSales.flatSaleMedian)}<br>
       <small>${saleRange}; ${districtSales.saleSamples ?? 0} sales</small>
+      ${formatTriggeringStations(properties, stationMinutes)}
       ${formatTriggeringPools(properties, poolMinutes)}
     `)
     .addTo(map);
@@ -460,16 +502,19 @@ async function initialise() {
   try {
     const manifest = await fetchJson("manifest.json");
     poolOperators = manifest.poolOperators ?? [];
-    const [candidateData, saleData, stations, venues, reachData] = await Promise.all([
-      fetchJson(manifest.files.candidates),
-      fetchJson(manifest.files.sales),
-      fetchJson(manifest.files.stations),
-      fetchJson(manifest.files.venues),
-      fetchJson(manifest.files.poolReach ?? "postcode-pool-reach.json"),
-    ]);
+    const [candidateData, saleData, stations, venues, poolReachData, stationReachData] =
+      await Promise.all([
+        fetchJson(manifest.files.candidates),
+        fetchJson(manifest.files.sales),
+        fetchJson(manifest.files.stations),
+        fetchJson(manifest.files.venues),
+        fetchJson(manifest.files.poolReach ?? "postcode-pool-reach.json"),
+        fetchJson(manifest.files.stationReach ?? "postcode-station-reach.json"),
+      ]);
     allCandidates = candidateData;
     sales = saleData;
-    poolReach = reachData;
+    poolReach = poolReachData;
+    stationReach = stationReachData;
     candidateFieldIndex = Object.fromEntries(
       allCandidates.fields.map((name, index) => [name, index]),
     );

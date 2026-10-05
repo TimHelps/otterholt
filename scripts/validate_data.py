@@ -18,6 +18,7 @@ EXPECTED_FILES = [
     "district-sales.json",
     "postcode-candidates.json",
     "postcode-pool-reach.json",
+    "postcode-station-reach.json",
 ]
 
 
@@ -98,6 +99,9 @@ def main() -> None:
     pool_reach = read_json(PUBLIC_DATA / "postcode-pool-reach.json")
     require(pool_reach.get("venues"), "Pool reach is missing venue catalog")
     require(pool_reach.get("byPostcode"), "Pool reach is missing postcode index")
+    station_reach = read_json(PUBLIC_DATA / "postcode-station-reach.json")
+    require(station_reach.get("stations"), "Station reach is missing station catalog")
+    require(station_reach.get("byPostcode"), "Station reach is missing postcode index")
     require(
         (PUBLIC_DATA / "postcode-candidates.json").stat().st_size < 4_000_000,
         "Candidate file exceeds 4 MB",

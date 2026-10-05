@@ -313,16 +313,16 @@ select:focus-visible {
   color: #1554ad;
 }
 
-.maplibregl-popup-content .popup-pools {
+.maplibregl-popup-content .popup-reach-list {
   margin: 6px 0 0;
   padding-left: 1.1rem;
 }
 
-.maplibregl-popup-content .popup-pools li {
+.maplibregl-popup-content .popup-reach-list li {
   margin: 0.2rem 0;
 }
 
-.maplibregl-popup-content .popup-pool-meta {
+.maplibregl-popup-content .popup-reach-meta {
   color: #5a6b63;
 }
 

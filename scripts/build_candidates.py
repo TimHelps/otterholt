@@ -166,6 +166,61 @@ def build_postcode_pool_reach(
     )
 
 
+def build_postcode_station_reach(
+    provider: str,
+    stations_path: Path,
+    postcodes: np.ndarray,
+    longitudes: np.ndarray,
+    latitudes: np.ndarray,
+    candidate_indexes: np.ndarray,
+) -> None:
+    cand_lons = longitudes[candidate_indexes]
+    cand_lats = latitudes[candidate_indexes]
+    cand_postcodes = [postcodes[int(index)] for index in candidate_indexes]
+
+    station_catalog: list[dict[str, str]] = []
+    reach_by_postcode: dict[str, list[list[int]]] = {}
+
+    for feature in read_json(stations_path).get("features", []):
+        point_id = str(feature.get("id") or feature["properties"]["id"])
+        contours = fetch_contours(
+            "station",
+            point_id,
+            feature["geometry"]["coordinates"],
+            provider,
+        )
+        minutes_at_points = minimum_minutes(contours, cand_lons, cand_lats)
+
+        station_idx = len(station_catalog)
+        properties = feature["properties"]
+        station_catalog.append(
+            {
+                "key": point_id,
+                "name": properties["name"],
+                "lines": properties.get("lines", ""),
+            }
+        )
+
+        for index, minutes in enumerate(minutes_at_points):
+            if minutes > WALK_MINUTES[-1]:
+                continue
+            postcode = str(cand_postcodes[index])
+            reach_by_postcode.setdefault(postcode, []).append(
+                [station_idx, int(minutes)]
+            )
+
+    output = PUBLIC_DATA / "postcode-station-reach.json"
+    write_json(
+        output,
+        {"stations": station_catalog, "byPostcode": reach_by_postcode},
+        compact=True,
+    )
+    print(
+        f"Wrote station reach for {len(reach_by_postcode):,} postcodes "
+        f"and {len(station_catalog)} stations to {output.name}"
+    )
+
+
 def main() -> None:
     ensure_directories()
     sales_path = PUBLIC_DATA / "district-sales.json"
@@ -237,7 +292,11 @@ def main() -> None:
         compact=True,
     )
     build_postcode_pool_reach(provider, postcodes, longitudes, latitudes, indexes)
+    build_postcode_station_reach(
+        provider, stations_path, postcodes, longitudes, latitudes, indexes
+    )
     reach_path = PUBLIC_DATA / "postcode-pool-reach.json"
+    station_reach_path = PUBLIC_DATA / "postcode-station-reach.json"
     manifest = {
         "generated": datetime.now(UTC).isoformat(),
         "options": WALK_MINUTES,
@@ -248,6 +307,7 @@ def main() -> None:
         "files": {
             "candidates": candidates_path.name,
             "poolReach": reach_path.name,
+            "stationReach": station_reach_path.name,
             "sales": sales_path.name,
             "stations": stations_path.name,
             "venues": venues_path.name,
