@@ -432,7 +432,26 @@ function formatReachSection(title, items, formatMeta) {
         )})</span></li>`,
     )
     .join("");
-  return `<br><br><b>${escapeHtml(title)}</b><ul class="popup-reach-list">${list}</ul>`;
+  return `<b>${escapeHtml(title)}</b><ul class="popup-reach-list">${list}</ul>`;
+}
+
+function formatReachBlocks(stationMinutes, poolMinutes, properties) {
+  const blocks = [
+    formatReachSection(
+      `Night Tube within ${stationMinutes} min walk:`,
+      parseReachProperty(properties, "triggeringStations"),
+      (station) => `${escapeHtml(station.lines)}, ≤${station.minutes} min`,
+    ),
+    formatReachSection(
+      `Pools within ${poolMinutes} min walk:`,
+      parseReachProperty(properties, "triggeringPools"),
+      (pool) => `${escapeHtml(pool.operatorLabel)}, ≤${pool.minutes} min`,
+    ),
+  ].filter(Boolean);
+  if (!blocks.length) {
+    return "";
+  }
+  return `<br><br>${blocks.join("<br>")}`;
 }
 
 function parseReachProperty(properties, key) {
@@ -441,22 +460,6 @@ function parseReachProperty(properties, key) {
   } catch {
     return [];
   }
-}
-
-function formatTriggeringStations(properties, stationMinutes) {
-  return formatReachSection(
-    `Night Tube within ${stationMinutes} min walk:`,
-    parseReachProperty(properties, "triggeringStations"),
-    (station) => `${escapeHtml(station.lines)}, ≤${station.minutes} min`,
-  );
-}
-
-function formatTriggeringPools(properties, poolMinutes) {
-  return formatReachSection(
-    `Pools within ${poolMinutes} min walk:`,
-    parseReachProperty(properties, "triggeringPools"),
-    (pool) => `${escapeHtml(pool.operatorLabel)}, ≤${pool.minutes} min`,
-  );
 }
 
 function showCandidatePopup(feature) {
@@ -479,8 +482,7 @@ function showCandidatePopup(feature) {
       <br><b>${escapeHtml(properties.district)} median flat sale:</b>
       ${formatPrice(districtSales.flatSaleMedian)}<br>
       <small>${saleRange}; ${districtSales.saleSamples ?? 0} sales</small>
-      ${formatTriggeringStations(properties, stationMinutes)}
-      ${formatTriggeringPools(properties, poolMinutes)}
+      ${formatReachBlocks(stationMinutes, poolMinutes, properties)}
     `)
     .addTo(map);
 }
