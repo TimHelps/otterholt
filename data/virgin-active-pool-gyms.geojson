@@ -1,0 +1,423 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "aldersgate",
+      "properties": {
+        "id": "aldersgate",
+        "name": "Aldersgate, London",
+        "address": "London, EC1A 4HD",
+        "url": "https://www.virginactive.co.uk/clubs/aldersgate",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.097507,
+          51.517471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "islington-angel",
+      "properties": {
+        "id": "islington-angel",
+        "name": "Angel, Islington",
+        "address": "London, EC1V 7DG",
+        "url": "https://www.virginactive.co.uk/clubs/islington-angel",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.105233,
+          51.531373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bank",
+      "properties": {
+        "id": "bank",
+        "name": "Bank, London",
+        "address": "London, EC2N 1DW",
+        "url": "https://www.virginactive.co.uk/clubs/bank",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.085398,
+          51.514765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "canary-riverside",
+      "properties": {
+        "id": "canary-riverside",
+        "name": "Canary Riverside Social Wellness Club",
+        "address": "London, E14 8RR",
+        "url": "https://www.virginactive.co.uk/clubs/canary-riverside",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.028035,
+          51.506089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "walbrook",
+      "properties": {
+        "id": "walbrook",
+        "name": "Cannon Street",
+        "address": "London, EC4N 5AE",
+        "url": "https://www.virginactive.co.uk/clubs/walbrook",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.090424,
+          51.511771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chiswick-park",
+      "properties": {
+        "id": "chiswick-park",
+        "name": "Chiswick Park",
+        "address": "London, W4 5YA",
+        "url": "https://www.virginactive.co.uk/clubs/chiswick-park",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.275628,
+          51.494623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chiswick-riverside",
+      "properties": {
+        "id": "chiswick-riverside",
+        "name": "Chiswick Riverside Social Wellness Club",
+        "address": "London, W4 2SX",
+        "url": "https://www.virginactive.co.uk/clubs/chiswick-riverside",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.25632,
+          51.47547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clapham",
+      "properties": {
+        "id": "clapham",
+        "name": "Clapham, London",
+        "address": "London, SW4 0HG",
+        "url": "https://www.virginactive.co.uk/clubs/clapham",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.141753,
+          51.466203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crouch-end",
+      "properties": {
+        "id": "crouch-end",
+        "name": "Crouch End, London",
+        "address": "London, N8 8PT",
+        "url": "https://www.virginactive.co.uk/clubs/crouch-end",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.122678,
+          51.580789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fulham-pools",
+      "properties": {
+        "id": "fulham-pools",
+        "name": "Fulham, London",
+        "address": "London, SW6 7ST",
+        "url": "https://www.virginactive.co.uk/clubs/fulham-pools",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.208748,
+          51.484502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kensington",
+      "properties": {
+        "id": "kensington",
+        "name": "Kensington Social Wellness Club",
+        "address": "London, W8 4PL",
+        "url": "https://www.virginactive.co.uk/clubs/kensington",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.190379,
+          51.502799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mayfair",
+      "properties": {
+        "id": "mayfair",
+        "name": "Mayfair Social Wellness Club",
+        "address": "London, W1K 7DA",
+        "url": "https://www.virginactive.co.uk/clubs/mayfair",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.156345,
+          51.513159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mill-hill",
+      "properties": {
+        "id": "mill-hill",
+        "name": "Mill Hill, London",
+        "address": "London, NW7 1GU",
+        "url": "https://www.virginactive.co.uk/clubs/mill-hill",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.210501,
+          51.6077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "moorgate",
+      "properties": {
+        "id": "moorgate",
+        "name": "Moorgate, London",
+        "address": "London, EC1Y 8LP",
+        "url": "https://www.virginactive.co.uk/clubs/moorgate",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.089679,
+          51.523027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "notting-hill",
+      "properties": {
+        "id": "notting-hill",
+        "name": "Notting Hill, London",
+        "address": "London, W11 1QT",
+        "url": "https://www.virginactive.co.uk/clubs/notting-hill",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.211222,
+          51.516212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "strand",
+      "properties": {
+        "id": "strand",
+        "name": "Strand Social Wellness Club",
+        "address": "London, WC2R 0DT",
+        "url": "https://www.virginactive.co.uk/clubs/strand",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.121718,
+          51.509867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streatham",
+      "properties": {
+        "id": "streatham",
+        "name": "Streatham, London",
+        "address": "London, SW16 1UB",
+        "url": "https://www.virginactive.co.uk/clubs/streatham",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.130174,
+          51.432826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wandsworth-smugglers-way",
+      "properties": {
+        "id": "wandsworth-smugglers-way",
+        "name": "Wandsworth, London",
+        "address": "London, SW18 1DG",
+        "url": "https://www.virginactive.co.uk/clubs/wandsworth-smugglers-way",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.188901,
+          51.463379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wimbledon-worple-road",
+      "properties": {
+        "id": "wimbledon-worple-road",
+        "name": "Wimbledon, London",
+        "address": "London, SW19 4JS",
+        "url": "https://www.virginactive.co.uk/clubs/wimbledon-worple-road",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.209528,
+          51.421879
+        ]
+      }
+    }
+  ]
+}

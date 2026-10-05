@@ -1,0 +1,1201 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "533",
+      "properties": {
+        "id": "533",
+        "name": "Albany Leisure Centre",
+        "address": "505 Hertford Road Middlesex EN3 5XH",
+        "url": "https://www.better.org.uk/leisure-centre/london/enfield/albany-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Studio, Swimming Pools, Sauna and Steam Room, Lockers, Car Park, Group Cycle Studio, Inclusive facilities",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0454634,
+          51.6679382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "209",
+      "properties": {
+        "id": "209",
+        "name": "Archway Leisure Centre",
+        "address": "Macdonald Road Islington London N19 5DD",
+        "url": "https://www.better.org.uk/leisure-centre/london/islington/archway",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Pools, Health Suite, Studio",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1358459,
+          51.5657716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "84",
+      "properties": {
+        "id": "84",
+        "name": "Atherton Leisure Centre",
+        "address": "189 Romford Road London E15 4JF",
+        "url": "https://www.better.org.uk/leisure-centre/london/newham/atherton-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym & Soft Play Refurbishment, Gym, Swimming Pools, Fitness Class Studios, Soft Play",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0145260002,
+          51.5443992615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2",
+      "properties": {
+        "id": "2",
+        "name": "Barnet Copthall Leisure Centre",
+        "address": "Champions Way Hendon London NW4 1PX",
+        "url": "https://www.better.org.uk/leisure-centre/london/barnet/barnet-copthall-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Barnet Car Parking, Swimming Pools, Studio, Gym, Cafe, Sports Hall",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2271050066,
+          51.6044006348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "373",
+      "properties": {
+        "id": "373",
+        "name": "Better Gym Pinner",
+        "address": "69 Bridge Street Pinner Greater London HA5 3HZ",
+        "url": "https://www.better.org.uk/leisure-centre/london/harrow/better-gym-pinner",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Cardio Zone, Strength Zone, Functional Zone, Resistance Zone, Fitness Studio, Sauna and Steam Room, Swimming Pool Access",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3853380084,
+          51.5952987671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "37",
+      "properties": {
+        "id": "37",
+        "name": "Botwell Green Sports and Leisure Centre",
+        "address": "East Avenue Hayes Middlesex UB3 2HW",
+        "url": "https://www.better.org.uk/leisure-centre/london/hillingdon/botwell-green",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Soft Play, Gym, Swimming Pool, Studio, Sauna, Gymnastics Hall, Sports Hall, Creche, 7 & 9 aside 3G Astro Turf, Car Park Information",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4182119966,
+          51.5074996948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "23",
+      "properties": {
+        "id": "23",
+        "name": "Britannia Leisure Centre",
+        "address": "Pitfield Street Hackney London N1 5FT",
+        "url": "https://www.better.org.uk/leisure-centre/london/hackney/britannia-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Detailed Accessibility Information, Gym, Swimming Pools, Leisure Pool, Sports Hall, Group Cycle Zone, Studios, Rooftop Pitches, Rooftop Courts, Sauna & Steam Room, Crèche, Soft Play, Squash Courts, Meeting Rooms, Café",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0836109966,
+          51.5353012085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "214",
+      "properties": {
+        "id": "214",
+        "name": "Cally Pool & Gym",
+        "address": "229 Caledonian Road Islington London N1 0NH",
+        "url": "https://www.better.org.uk/leisure-centre/london/islington/cally",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pools, Gym, Detailed Accessibility Information",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.116909,
+          51.5385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "45",
+      "properties": {
+        "id": "45",
+        "name": "Canons Leisure Centre",
+        "address": "Madeira Road Mitcham London Surrey CR4 4HD",
+        "url": "https://www.better.org.uk/leisure-centre/london/merton/canons-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Soft Play, Gym, Swimming pools, Studio, Sports Hall, MUGA Pitches, Squash",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1613389999,
+          51.3997001648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "104",
+      "properties": {
+        "id": "104",
+        "name": "Charlton Lido and Lifestyle Club",
+        "address": "Hornfair Park Shooters Hill Road, Greenwich London SE18 4LX",
+        "url": "https://www.better.org.uk/leisure-centre/london/greenwich/charlton-lido",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "50m Heated Outdoor Pool, Open Air Group Cycle Studio, Tennis Courts, Gym, Studio, Sun Terrace, BMX Race Track, Detailed Accessibility Information, Calm Studio, Café, Sauna",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0389669985,
+          51.4751014709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "40",
+      "properties": {
+        "id": "40",
+        "name": "Chelsea Sports Centre",
+        "address": "Chelsea Manor Street Kensington & Chelsea London SW3 5PL",
+        "url": "https://www.better.org.uk/leisure-centre/london/kensington-and-chelsea/chelsea-sports-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming Pools, Studios, Outdoor Sports",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1678230017,
+          51.4874000549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "64",
+      "properties": {
+        "id": "64",
+        "name": "Chingford Leisure Centre",
+        "address": "Unit 4 Larkswood Leisure Park, New Road Chingford, Waltham Forest London E4 9EY",
+        "url": "https://www.better.org.uk/leisure-centre/london/waltham-forest/chingford-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Pools, Studio",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0055590002,
+          51.617099762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "24",
+      "properties": {
+        "id": "24",
+        "name": "Clissold Leisure Centre",
+        "address": "63 Clissold Road Hackney London N16 9EX",
+        "url": "https://www.better.org.uk/leisure-centre/london/hackney/clissold-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Detailed Accessibility Information, Clissold Centre Refurbishment, Elevate Studio, Soft Play, Gym, Pools, Group Cycle Studio, Sports Hall, Studios, Squash Courts, Health Suite, Creche, Clissold Park Splash Pad",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0845950022,
+          51.5578994751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7",
+      "properties": {
+        "id": "7",
+        "name": "Crystal Palace National Sports Centre",
+        "address": "Ledrington Road Crystal Palace London SE19 2BB",
+        "url": "https://www.better.org.uk/leisure-centre/london/crystal-palace/crystal-palace-national-sports-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, 25m Training Pool, Teaching Pool, Soft Play, Studios, Squash Courts, Athletics Stadium and Indoor Track, Tennis and Padel Courts, Sports Halls, Pitches, Beach Volleyball Courts, Climbing Wall, Cafe",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.068547003,
+          51.4203987122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "49",
+      "properties": {
+        "id": "49",
+        "name": "East Ham Leisure Centre",
+        "address": "324 Barking Road East Ham London E6 2RT",
+        "url": "https://www.better.org.uk/leisure-centre/london/newham/east-ham-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Studio and Changing Room Refurbishment, Gym, Women-only Gym, Fitness Class Studio, Swimming Pool, Sports Hall, Creche",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0589689985,
+          51.5334014893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "535",
+      "properties": {
+        "id": "535",
+        "name": "Edmonton Leisure Centre",
+        "address": "2 The Broadway London Greater London N9 0TR",
+        "url": "https://www.better.org.uk/leisure-centre/london/enfield/edmonton-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Fitness Class Studio, Group Cycle Studio, Sports Hall, Soft Play, Swimming Pools, Sauna and Steam Room",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0604725,
+          51.6242056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5",
+      "properties": {
+        "id": "5",
+        "name": "Finchley Lido Leisure Centre",
+        "address": "Great North Leisure Park Chaplin Square Finchley London N12 0GL",
+        "url": "https://www.better.org.uk/leisure-centre/london/barnet/finchley-lido-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Car Parking at Finchley Lido, Facilities hire, Swimming Pools, Gym, Studios, Sauna",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1735419929,
+          51.604801178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "508",
+      "properties": {
+        "id": "508",
+        "name": "Forest Hill Pools",
+        "address": "Dartmouth Road Forest Hill London SE23 2HZ",
+        "url": "https://www.better.org.uk/leisure-centre/london/lewisham/forest-hill-pools",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Venue Hire, Gym, Swimming Pools, Group Cycle Zone, Studios, Café",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0574136004,
+          51.4379005432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "507",
+      "properties": {
+        "id": "507",
+        "name": "Glass Mill Leisure Centre",
+        "address": "41 Loampit Vale London SE13 7FT",
+        "url": "https://www.better.org.uk/leisure-centre/london/lewisham/glass-mill-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming Pools, Fitness Studios, Health Suite, Café, Thomas Betts Meeting Room, Crèche, Group Cycle Studio",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0163800009,
+          51.4641990662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "207",
+      "properties": {
+        "id": "207",
+        "name": "Highbury Leisure Centre",
+        "address": "Highbury Crescent Islington London N5 1RR",
+        "url": "https://www.better.org.uk/leisure-centre/london/islington/highbury",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Pools, Gym, Fitness Studio, Group Cycle Studio, Health Suite",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.103269,
+          51.5477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "36",
+      "properties": {
+        "id": "36",
+        "name": "Highgrove Pool and Fitness Centre",
+        "address": "Eastcote Road Hume Way Ruislip Hillingdon HA4 8DZ",
+        "url": "https://www.better.org.uk/leisure-centre/london/hillingdon/highgrove-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming Pool, Studio, Group Cycle Studio, Teaching Pool, Sauna and Steam, Functional Zone, Car Park Information",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4092819989,
+          51.5797996521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "502",
+      "properties": {
+        "id": "502",
+        "name": "Hillingdon Sports & Leisure Complex",
+        "address": "Gatting Way Middlesex UB8 1ES",
+        "url": "https://www.better.org.uk/leisure-centre/london/hillingdon/hillingdon-sports-lc",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Indoor Swimming Pools, Outdoor Lido, Studios, Sports Hall, 3G Football Pitches, 400m Athletic Track, Health Suite, Café, The Urban Rose, Car Park Information",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4669280052,
+          51.5508995056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "102",
+      "properties": {
+        "id": "102",
+        "name": "Ironmonger Row Baths",
+        "address": "1 Norman Street Islington EC1V 3AA",
+        "url": "https://www.better.org.uk/leisure-centre/london/islington/ironmonger-row-baths",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Pools, Spa Experience, Squash Courts, Studio",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.094859,
+          51.5266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "39",
+      "properties": {
+        "id": "39",
+        "name": "Kensington Leisure Centre",
+        "address": "Silchester Road Kensington & Chelsea London W10 6EX",
+        "url": "https://www.better.org.uk/leisure-centre/london/kensington-and-chelsea/kensington-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Soft Play, Gym, Swimming Pools, Studio 1 & 2, Sports Hall, Spa Experience, Squash Courts, Meeting/Function Room, Better Coffee Corner",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2140489966,
+          51.5136985779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8",
+      "properties": {
+        "id": "8",
+        "name": "Kentish Town Sports Centre",
+        "address": "Grafton Road Kentish Town London NW5 3DU",
+        "url": "https://www.better.org.uk/leisure-centre/london/camden/kentish-town-sports-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Studio, Swimming Pools",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1447129995,
+          51.5475006104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "65",
+      "properties": {
+        "id": "65",
+        "name": "Leyton Leisure Centre",
+        "address": "763, High Road Leyton , Waltham Forest London E10 5AB",
+        "url": "https://www.better.org.uk/leisure-centre/london/waltham-forest/leyton-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Car Parking, Gym, Swimming Pools, Studio, Aqua Play for Children, Health Suite",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0087860003,
+          51.5730018616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "229",
+      "properties": {
+        "id": "229",
+        "name": "Leytonstone Leisure Centre",
+        "address": "Cathall Road Leytonstone, Waltham Forest London E11 4LA",
+        "url": "https://www.better.org.uk/leisure-centre/london/waltham-forest/leytonstone-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Car Parking, Gym, Studio, Pools, Sports Hall, Soft Play, Sauna, Hireable facility - Meeting room, Café",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0039400002,
+          51.5598983765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "478",
+      "properties": {
+        "id": "478",
+        "name": "Morden Leisure Centre",
+        "address": "Morden Leisure Centre London Road Morden SM4 5HE",
+        "url": "https://www.better.org.uk/leisure-centre/london/merton/morden-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming Pools, Studio, Coffee Corner, Disc Golf and Pitch and Putt Courses",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2056930065,
+          51.3926010132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "455",
+      "properties": {
+        "id": "455",
+        "name": "New Addington Leisure & Community Centre",
+        "address": "88 Central Parade Croydon London CR0 0JB",
+        "url": "https://www.better.org.uk/leisure-centre/london/croydon/new-addington-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pools, Gym, Studio, Sports Hall, Community Rooms",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0159939993,
+          51.3406982422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "496",
+      "properties": {
+        "id": "496",
+        "name": "New Barnet Leisure Centre",
+        "address": "1 Lawton Road Barnet EN4 9BS",
+        "url": "https://www.better.org.uk/leisure-centre/london/barnet/new-barnet-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Facilities hire, Barnet Car Parking, Gym, Swimming Pools, Studio, Outdoor Tennis Courts, Café",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1697860062,
+          51.6537017822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "50",
+      "properties": {
+        "id": "50",
+        "name": "Newham Leisure Centre",
+        "address": "281, Prince Regent Lane Plaistow E13 8SD",
+        "url": "https://www.better.org.uk/leisure-centre/london/newham/newham-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Studio and Soft Play Refurbishment, Gym, Fitness Class Studios, Soft Play, Group Cycling Studio, Swimming, Sports Hall, Pitches, Athletics Track, Multi-Sports Centre",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0324519984,
+          51.5181999207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9",
+      "properties": {
+        "id": "9",
+        "name": "Oasis Sports Centre",
+        "address": "32, Endell Street (Main Entrance High Holborn) Covent Garden London WC2H 9AG",
+        "url": "https://www.better.org.uk/leisure-centre/london/camden/oasis-sports-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Outdoor Swimming Pool, Indoor Swimming Pool, Gym, Squash, Studios, Sauna",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1258870065,
+          51.5157012939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "222",
+      "properties": {
+        "id": "222",
+        "name": "Pancras Square Leisure",
+        "address": "Pancras Square Leisure 5 Pancras Square London N1C 4AG",
+        "url": "https://www.better.org.uk/leisure-centre/london/camden/pancras-square",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Accessible information, Gym, Studios, Swimming Pools, Sauna and Steam Room",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1267720014,
+          51.5340003967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "35",
+      "properties": {
+        "id": "35",
+        "name": "Phoenix Fitness Centre and Janet Adegoke Swimming Pool",
+        "address": "Bloemfontein Road Shepherds Bush London W12 7DB",
+        "url": "https://www.better.org.uk/leisure-centre/london/hammersmith-and-fulham/phoenix-fitness-centre-and-janet-adegoke-swimming-pool",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming pool, Studio, Sports Hall",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2353499979,
+          51.5126991272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "566",
+      "properties": {
+        "id": "566",
+        "name": "Platinum Jubilee Leisure Centre",
+        "address": "Rowhleys Place West Drayton London UB7 9NQ",
+        "url": "https://www.better.org.uk/leisure-centre/london/hillingdon/platinum-jubilee-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Group Cycle Studio, Swimming Pools, Sports Hall, Fitness Studio, 3G Football Pitch, Soft Play, Clip 'n Climb, Sauna and Steam, Café, Meeting Room Hire, Car Park Information",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4702698,
+          51.501422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "558",
+      "properties": {
+        "id": "558",
+        "name": "Pools on the Park",
+        "address": "Old Deer Park Twickenham Road Richmond TW9 2SF",
+        "url": "https://www.better.org.uk/leisure-centre/london/richmond-upon-thames/pools-on-the-park",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Outdoor Swimming Pool, Swimming Pools, Studio, Group Cycling Studio, Café",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3060855865,
+          51.4653192728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "452",
+      "properties": {
+        "id": "452",
+        "name": "South Norwood Leisure Centre",
+        "address": "164 Portland Road Croydon London SE25 4PT",
+        "url": "https://www.better.org.uk/leisure-centre/london/croydon/south-norwood-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pool, Gym, Studio",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0675799996,
+          51.393699646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "536",
+      "properties": {
+        "id": "536",
+        "name": "Southbury Leisure Centre",
+        "address": "192 Southbury Road Enfield London EN1 1YP",
+        "url": "https://www.better.org.uk/leisure-centre/london/enfield/southbury-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pool, Gym, Spin Studio, Studio, Sauna and Steam Room, Soft Play, Sports Hall, Café, Football Pitch",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0621367,
+          51.6520366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "537",
+      "properties": {
+        "id": "537",
+        "name": "Southgate Leisure Centre",
+        "address": "Winchmore Hill Road London N14 6AD",
+        "url": "https://www.better.org.uk/leisure-centre/london/enfield/southgate-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Car Park, Gym, Fitness Class Studios, Swimming Pool, Health Suite, Group Cycling Studio",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1244667,
+          51.6343256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "10",
+      "properties": {
+        "id": "10",
+        "name": "Swiss Cottage Leisure Centre",
+        "address": "Adelaide Road Camden London NW3 3NF",
+        "url": "https://www.better.org.uk/leisure-centre/london/camden/swiss-cottage-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pools, Gym, Studios, Sports Hall, Soft Play, Spa Experience, Outdoor Football Pitch, Squash, Cafe",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1734160036,
+          51.5424003601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "557",
+      "properties": {
+        "id": "557",
+        "name": "Teddington Pools and Fitness Centre",
+        "address": "Vicarage Road Teddington TW11 8EZ",
+        "url": "https://www.better.org.uk/leisure-centre/london/richmond-upon-thames/teddington-pools-and-fitness-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pools, Hydrotherapy Pool, Fitness Class Studio, Group Cycle Studio, Gym",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3316423298,
+          51.4283000971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "21",
+      "properties": {
+        "id": "21",
+        "name": "Thamesmere Leisure Centre",
+        "address": "Thamesmere Drive Thamesmead London SE28 8RE",
+        "url": "https://www.better.org.uk/leisure-centre/london/greenwich/thamesmere-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Pools, Studio, Healthwise (GP Referral), Library",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1092019975,
+          51.5078010559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18",
+      "properties": {
+        "id": "18",
+        "name": "The Eltham Centre",
+        "address": "2 Archery Road Eltham London SE9 1HA",
+        "url": "https://www.better.org.uk/leisure-centre/london/greenwich/eltham-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Centre Refurbishment, Gym, Pools, Studios, Sauna & Steam, Library",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0573670007,
+          51.451499939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "272",
+      "properties": {
+        "id": "272",
+        "name": "The Greenwich Centre",
+        "address": "12 Lambarde Square Greenwich London SE10 9GB",
+        "url": "https://www.better.org.uk/leisure-centre/london/greenwich/greenwichcentre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Centre Refurbishment, Gym, Pools, Studios, Library",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0084849996,
+          51.4852981567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "451",
+      "properties": {
+        "id": "451",
+        "name": "Thornton Heath Leisure Centre",
+        "address": "100 High Street Thornton Heath, Croydon London CR7 8LF",
+        "url": "https://www.better.org.uk/leisure-centre/london/croydon/thornton-heath-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pool, Gym, Studio, Health Suite, Sports Hall",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0969450027,
+          51.3991012573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "469",
+      "properties": {
+        "id": "469",
+        "name": "Vauxhall Leisure Centre",
+        "address": "50 South Lambeth Road Vauxhall, Lambeth London SW8 1DY",
+        "url": "https://www.better.org.uk/leisure-centre/london/lambeth/vauxhall-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym and Studio Refurbishment, Gym, Studio, Group Cycle Studio, Swimming Pool, Sauna and Steam, Interactive Technology & Mywellness",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1234399974,
+          51.4838981628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "453",
+      "properties": {
+        "id": "453",
+        "name": "Waddon Leisure Centre",
+        "address": "Purley Way Waddon, Croydon London CR0 4RG",
+        "url": "https://www.better.org.uk/leisure-centre/london/croydon/waddon-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Studio, Swimming Pools, Soft Play, Sports Hall, Café, Meeting Room, Studio 2",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1176789999,
+          51.364200592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "67",
+      "properties": {
+        "id": "67",
+        "name": "Waltham Forest Feel Good Centre",
+        "address": "170 Chingford Road Walthamstow, Waltham Forest London E17 5AA",
+        "url": "https://www.better.org.uk/leisure-centre/london/waltham-forest/waltham-forest-feel-good-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Car Parking, Gym, Pools, Studios, Spa Experience, Play Park, Athletics Track, Soft Play (Under 3's), Clip 'n Climb, Sports Hall, MUGA, Cafe",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0149900001,
+          51.5932998657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "509",
+      "properties": {
+        "id": "509",
+        "name": "Wavelengths Leisure Centre",
+        "address": "Giffin Street Deptford SE8 4RJ",
+        "url": "https://www.better.org.uk/leisure-centre/london/lewisham/wavelengths-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming Pools, Studios, Soft Play, Café, Health Suite",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0243100002,
+          51.4776000977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "343",
+      "properties": {
+        "id": "343",
+        "name": "Wembley Leisure Centre",
+        "address": "Grand Felda House, Empire Way Wembley London HA9 0EF",
+        "url": "https://www.better.org.uk/leisure-centre/london/wembley/wembley-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming pool, Gym, Group Cycle Studio, Studio, Health suite",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2830789983,
+          51.5606002808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "47",
+      "properties": {
+        "id": "47",
+        "name": "Wimbledon Leisure Centre and Spa",
+        "address": "Latimer Road Wimbledon London SW19 1EW",
+        "url": "https://www.better.org.uk/leisure-centre/london/merton/wimbledon-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming Pools, Studio, Spa Experience, Group Cycle",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1924220026,
+          51.4201011658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "559",
+      "properties": {
+        "id": "559",
+        "name": "Woolwich Waves",
+        "address": "49 Woolwich New Road London SE18 6EU",
+        "url": "https://www.better.org.uk/leisure-centre/london/greenwich/woolwich-waves",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym Equipment Upgraded, Fitness Areas, Studios, Swimming Pools, Virtual Studios, Sports Hall, Squash, 3G Football Pitch, Soft Play, Café, Spa Experience, Crèche",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.068551,
+          51.489917
+        ]
+      }
+    }
+  ]
+}

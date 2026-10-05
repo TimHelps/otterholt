@@ -1,0 +1,1127 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "abbey-leisure-centre",
+      "properties": {
+        "id": "abbey-leisure-centre",
+        "name": "Abbey Leisure Centre",
+        "address": "Bobby Moore Way, Barking, IG11 7HW",
+        "url": "https://www.everyoneactive.com/centre/abbey-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.078359421611305,
+          51.535251382627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "abbs-cross-health-and-fitness",
+      "properties": {
+        "id": "abbs-cross-health-and-fitness",
+        "name": "Abbs Cross Health and Fitness",
+        "address": "Abbs Cross Lane, Hornchurch, RM12 4YB",
+        "url": "https://www.everyoneactive.com/centre/abbs-cross-health-and-fitness/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.20788138093359976,
+          51.552692850175916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "academy-sport",
+      "properties": {
+        "id": "academy-sport",
+        "name": "Academy Sport",
+        "address": "Torquay Street, London, W2 5EW",
+        "url": "https://www.everyoneactive.com/centre/academy-sport/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1915959005249,
+          51.520218393085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-acton-centre",
+      "properties": {
+        "id": "everyone-active-acton-centre",
+        "name": "Acton Centre",
+        "address": "High Street, Acton, W3 6NE",
+        "url": "https://www.everyoneactive.com/centre/everyone-active-acton-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.26677687374955,
+          51.506370085132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "batchwood-golf-and-sports-centre",
+      "properties": {
+        "id": "batchwood-golf-and-sports-centre",
+        "name": "Batchwood Golf and Sports Centre",
+        "address": "Batchwood Dr, St Albans, AL3 5XA",
+        "url": "https://www.everyoneactive.com/centre/batchwood-golf-and-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.35444908839112,
+          51.766816383714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "becontree-heath-leisure-centre",
+      "properties": {
+        "id": "becontree-heath-leisure-centre",
+        "name": "Becontree Heath Leisure Centre",
+        "address": "Althorne Way, Dagenham, RM10 7FH",
+        "url": "https://www.everyoneactive.com/centre/becontree-heath-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.14917373657227,
+          51.560931184459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "berkhamsted-leisure-centre",
+      "properties": {
+        "id": "berkhamsted-leisure-centre",
+        "name": "Berkhamsted Leisure Centre",
+        "address": "Lagley Meadow, Douglas Gardens, Berkhamsted, HP4 3QQ",
+        "url": "https://www.everyoneactive.com/centre/berkhamsted-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.580344981066446,
+          51.76426869497429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brent-valley-golf-course",
+      "properties": {
+        "id": "brent-valley-golf-course",
+        "name": "Brent Valley Golf Course & Fitness Centre",
+        "address": "Church Road, Hanwell W7 3BE",
+        "url": "https://www.everyoneactive.com/centre/brent-valley-golf-course/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.340147399999978,
+          51.51591310000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "central-park-leisure-centre",
+      "properties": {
+        "id": "central-park-leisure-centre",
+        "name": "Central Park Leisure Centre",
+        "address": "Gooshays Drive, Harold Hill, Romford RM3 9LB",
+        "url": "https://www.everyoneactive.com/centre/central-park-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2241609,
+          51.6079138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chalfont-leisure-centre",
+      "properties": {
+        "id": "chalfont-leisure-centre",
+        "name": "Chalfont Leisure Centre",
+        "address": "Nicol Road, Chalfont St Peter, Buckinghamshire, SL9 9LR",
+        "url": "https://www.everyoneactive.com/centre/chalfont-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.56897647157932,
+          51.608414330379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cheam-leisure-centre",
+      "properties": {
+        "id": "cheam-leisure-centre",
+        "name": "Cheam Leisure Centre",
+        "address": "Malden Road, Sutton SM3 8EP",
+        "url": "https://www.everyoneactive.com/centre/cheam-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22477600000001985,
+          51.368225162731136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chesham-leisure-centre",
+      "properties": {
+        "id": "chesham-leisure-centre",
+        "name": "Chesham Leisure Centre",
+        "address": "White Hill, Chesham, HP5 1BB",
+        "url": "https://www.everyoneactive.com/centre/chesham-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.59987235495424,
+          51.708952038989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chilterns-lifestyle-centre",
+      "properties": {
+        "id": "chilterns-lifestyle-centre",
+        "name": "Chilterns Lifestyle Centre",
+        "address": "Chiltern Avenue, Amersham, Buckinghamshire HP6 5AH",
+        "url": "https://www.everyoneactive.com/centre/chilterns-lifestyle-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.60204523862305,
+          51.675647967265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dormers-wells-leisure-centre",
+      "properties": {
+        "id": "dormers-wells-leisure-centre",
+        "name": "Dormers Wells Leisure Centre",
+        "address": "Dormers Wells Lane, Southall, Middlesex, UB1 3JB",
+        "url": "https://www.everyoneactive.com/centre/dormers-wells-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.36573529243469,
+          51.517662827236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "eastwood-leisure-centre",
+      "properties": {
+        "id": "eastwood-leisure-centre",
+        "name": "Eastwood Leisure Centre - Everyone Active",
+        "address": "Albert Drive, Sheerwater, Woking GU21 5RF",
+        "url": "https://www.everyoneactive.com/centre/eastwood-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.52549878968811,
+          51.335855885589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "edenbridge-leisure-centre",
+      "properties": {
+        "id": "edenbridge-leisure-centre",
+        "name": "Edenbridge Leisure Centre - Everyone Active",
+        "address": "Edenbridge Leisure Centre, Stangrove Park, Edenbridge, Kent, TN8 5LU",
+        "url": "https://www.everyoneactive.com/centre/edenbridge-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.062730771504516,
+          51.200868227993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "elthorne-sports-centre",
+      "properties": {
+        "id": "elthorne-sports-centre",
+        "name": "Elthorne Sports Centre",
+        "address": "Westlea Road (off Boston Road), London W7 2AD",
+        "url": "https://www.everyoneactive.com/centre/elthorne-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.33103823661804,
+          51.499927205523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "greenford-sports-centre",
+      "properties": {
+        "id": "greenford-sports-centre",
+        "name": "Greenford Sports Centre",
+        "address": "Greenford Sports Centre, Lady Margaret Road UB1 2NP",
+        "url": "https://www.everyoneactive.com/centre/greenford-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.36971465197598,
+          51.531228694724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "harrow-leisure-centre",
+      "properties": {
+        "id": "harrow-leisure-centre",
+        "name": "Harrow Leisure Centre",
+        "address": "Christchurch Avenue, Harrow HA3 5BD",
+        "url": "https://www.everyoneactive.com/centre/harrow-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3275077248534899,
+          51.592288229076914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "harrow-lodge-leisure-centre",
+      "properties": {
+        "id": "harrow-lodge-leisure-centre",
+        "name": "Harrow Lodge Leisure Centre (Hornchurch)",
+        "address": "Hornchurch Road, Hornchurch, RM11 1JU",
+        "url": "https://www.everyoneactive.com/centre/harrow-lodge-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.20270820019453,
+          51.562036988875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hatch-end-swimming-pool",
+      "properties": {
+        "id": "hatch-end-swimming-pool",
+        "name": "Hatch End Swimming Pool",
+        "address": "Uxbridge Road, Hatch End HA5 4EA",
+        "url": "https://www.everyoneactive.com/centre/hatch-end-swimming-pool/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.36272337668651744,
+          51.60742123422414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hemel-hempstead-leisure-centre",
+      "properties": {
+        "id": "hemel-hempstead-leisure-centre",
+        "name": "Hemel Hempstead Leisure Centre",
+        "address": "Park Road, Hemel Hempstead, Hertfordshire, HP1 1JS",
+        "url": "https://www.everyoneactive.com/centre/hemel-hempstead-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4780564,
+          51.7454459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "islip-manor-sports-centre",
+      "properties": {
+        "id": "islip-manor-sports-centre",
+        "name": "Islip Manor Sports Centre",
+        "address": "Eastcote Lane, Northolt UB5 4HP",
+        "url": "https://www.everyoneactive.com/centre/islip-manor-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.37545006983646,
+          51.551656151068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jim-peters-stadium",
+      "properties": {
+        "id": "jim-peters-stadium",
+        "name": "Jim Peters Stadium",
+        "address": "Lodge Avenue, Dagenham, Essex RM8 2JR",
+        "url": "https://www.everyoneactive.com/centre/jim-peters-stadium/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.11325144973761,
+          51.545527732685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "langley-leisure-centre",
+      "properties": {
+        "id": "langley-leisure-centre",
+        "name": "Langley Leisure Centre",
+        "address": "Parlaunt Rd, Slough, SL3 8BD",
+        "url": "https://www.everyoneactive.com/centre/langley-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.535765215754509,
+          51.49931191064179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "london-aquatics-centre",
+      "properties": {
+        "id": "london-aquatics-centre",
+        "name": "London Aquatics Centre - Everyone Active",
+        "address": "Queen Elizabeth Olympic Park, London E20 2AQ",
+        "url": "https://www.everyoneactive.com/centre/london-aquatics-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.011143643450706,
+          51.539948614687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "marshall-street-leisure-centre-spa",
+      "properties": {
+        "id": "marshall-street-leisure-centre-spa",
+        "name": "Marshall Street Leisure Centre & Spa",
+        "address": "15 Marshall Street, London W1F 7EL",
+        "url": "https://www.everyoneactive.com/centre/marshall-street-leisure-centre-spa/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1377796,
+          51.5136454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "moberly-sports-centre",
+      "properties": {
+        "id": "moberly-sports-centre",
+        "name": "Moberly Sports Centre",
+        "address": "25 Chamberlayne Road, London, NW10 3NB",
+        "url": "https://www.everyoneactive.com/centre/moberly-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.21696323636125,
+          51.529889408795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "noak-hill-sports-complex",
+      "properties": {
+        "id": "noak-hill-sports-complex",
+        "name": "Noak Hill Sports Complex",
+        "address": "Noak Hill Road, Romford RM3 7FL",
+        "url": "https://www.everyoneactive.com/centre/noak-hill-sports-complex/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.20907106809318,
+          51.611567711738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "northolt-leisure-centre",
+      "properties": {
+        "id": "northolt-leisure-centre",
+        "name": "Northolt Leisure Centre",
+        "address": "Eastcote Lane North, Northolt UB5 4AB",
+        "url": "https://www.everyoneactive.com/centre/northolt-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3684499,
+          51.5490215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "paddington-recreation-ground",
+      "properties": {
+        "id": "paddington-recreation-ground",
+        "name": "Paddington Recreation Ground",
+        "address": "Randolph Avenue, London W9 1PD",
+        "url": "https://www.everyoneactive.com/centre/paddington-recreation-ground/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1907844,
+          51.5301947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "perivale-park-athletics-track",
+      "properties": {
+        "id": "perivale-park-athletics-track",
+        "name": "Perivale Park Athletics Track",
+        "address": "Stockdove Way, Perivale UB6 8TJ",
+        "url": "https://www.everyoneactive.com/centre/perivale-park-athletics-track/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.33660136427920406,
+          51.531797729840875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pool-in-the-park",
+      "properties": {
+        "id": "pool-in-the-park",
+        "name": "Pool in the Park - Everyone Active",
+        "address": "Woking Park, Kingfield Road, Woking GU22 9BA",
+        "url": "https://www.everyoneactive.com/centre/pool-in-the-park/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.55641413862304,
+          51.309532588902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "porchester-centre",
+      "properties": {
+        "id": "porchester-centre",
+        "name": "Porchester Leisure Centre",
+        "address": "Queensway, Bayswater, London W2 5HS",
+        "url": "https://www.everyoneactive.com/centre/porchester-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1766342461722,
+          51.518499492673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "queen-mother-sports-centre",
+      "properties": {
+        "id": "queen-mother-sports-centre",
+        "name": "Queen Mother Sports Centre",
+        "address": "223 Vauxhall Bridge Rd, Victoria, London SW1V 1EL",
+        "url": "https://www.everyoneactive.com/centre/queen-mother-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14947800203493,
+          51.493340014813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rainham-leisure-centre",
+      "properties": {
+        "id": "rainham-leisure-centre",
+        "name": "Rainham Leisure Centre - Everyone Active",
+        "address": "Viking way, Rainham, RM13 9YZ",
+        "url": "https://www.everyoneactive.com/centre/rainham-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.19074551863547,
+          51.519441328059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "reynolds-sports-centre",
+      "properties": {
+        "id": "reynolds-sports-centre",
+        "name": "Reynolds Sports Centre",
+        "address": "Acton High School, Gunnersbury Lane W3 8EY",
+        "url": "https://www.everyoneactive.com/centre/reynolds-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.28010963558199364,
+          51.505590039019246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sapphire-ice-leisure",
+      "properties": {
+        "id": "sapphire-ice-leisure",
+        "name": "Sapphire Ice & Leisure",
+        "address": "24 Western Road, Romford, RM1 3JT",
+        "url": "https://www.everyoneactive.com/centre/sapphire-ice-leisure/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.18420758016147,
+          51.577143523019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sevenoaks-leisure-centre",
+      "properties": {
+        "id": "sevenoaks-leisure-centre",
+        "name": "Sevenoaks Leisure Centre - Everyone Active",
+        "address": "Sevenoaks Leisure Centre, Buckhurst Lane, Sevenoaks, Kent, TN13 1LW",
+        "url": "https://www.everyoneactive.com/centre/sevenoaks-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1963484287262,
+          51.271447304511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "south-oxhey-leisure-centre",
+      "properties": {
+        "id": "south-oxhey-leisure-centre",
+        "name": "South Oxhey Leisure Centre",
+        "address": "Gosforth Lane, South Oxhey, Watford, WD19 7AX",
+        "url": "https://www.everyoneactive.com/centre/south-oxhey-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.39209604263306,
+          51.627288476905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-brentwood-centre",
+      "properties": {
+        "id": "the-brentwood-centre",
+        "name": "The Brentwood Centre",
+        "address": "Doddinghurst Road, Brentwood, Essex, CM15 9NN",
+        "url": "https://www.everyoneactive.com/centre/the-brentwood-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.29972921163939,
+          51.6348526637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "the-centre-slough",
+      "properties": {
+        "id": "the-centre-slough",
+        "name": "The Centre (Slough)",
+        "address": "Farnham Road, Slough, SL1 4UT",
+        "url": "https://www.everyoneactive.com/centre/the-centre-slough/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.61476230621338,
+          51.519371919967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "vale-farm-sports-centre",
+      "properties": {
+        "id": "vale-farm-sports-centre",
+        "name": "Vale Farm Sports Centre",
+        "address": "Watford Road, North Wembley HA0 3HG",
+        "url": "https://www.everyoneactive.com/centre/vale-farm-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.31639337539673,
+          51.559350384883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "watford-leisure-centre-central",
+      "properties": {
+        "id": "watford-leisure-centre-central",
+        "name": "Watford Leisure Centre – Central",
+        "address": "Peace Prospect, Watford WD17 3HA",
+        "url": "https://www.everyoneactive.com/centre/watford-leisure-centre-central/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4046756029129,
+          51.660244426903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "watford-leisure-centre-woodside",
+      "properties": {
+        "id": "watford-leisure-centre-woodside",
+        "name": "Watford Leisure Centre – Woodside",
+        "address": "Horseshoe Lane, Garston, Watford WD25 7HH",
+        "url": "https://www.everyoneactive.com/centre/watford-leisure-centre-woodside/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.39182965889551724,
+          51.69570450000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "westcroft-leisure-centre",
+      "properties": {
+        "id": "westcroft-leisure-centre",
+        "name": "Westcroft Leisure Centre",
+        "address": "Westcroft Road, Carshalton SM5 2TG",
+        "url": "https://www.everyoneactive.com/centre/westcroft-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1583674067459242,
+          51.36790700000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "westminster-lodge-leisure-centre",
+      "properties": {
+        "id": "westminster-lodge-leisure-centre",
+        "name": "Westminster Lodge Leisure Centre",
+        "address": "Holywell Hill, St Albans AL1 2DJ",
+        "url": "https://www.everyoneactive.com/centre/westminster-lodge-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.34413814544678,
+          51.745658396948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "white-oak-leisure-centre",
+      "properties": {
+        "id": "white-oak-leisure-centre",
+        "name": "White Oak Leisure Centre",
+        "address": "Hilda May Ave, Swanley BR8 7BT",
+        "url": "https://www.everyoneactive.com/centre/white-oak-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.17019350527955,
+          51.400852119085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "william-penn-leisure-centre",
+      "properties": {
+        "id": "william-penn-leisure-centre",
+        "name": "William Penn Leisure Centre",
+        "address": "Shepherds Lane, Mill End, Rickmansworth, Hertfordshire, WD3 8JN",
+        "url": "https://www.everyoneactive.com/centre/william-penn-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.51845122128725,
+          51.638892369095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "woking-leisure-centre",
+      "properties": {
+        "id": "woking-leisure-centre",
+        "name": "Woking Leisure Centre - Everyone Active",
+        "address": "Woking Park, Kingfield Road, Woking GU22 9BA",
+        "url": "https://www.everyoneactive.com/centre/woking-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.55626447057421,
+          51.310029220105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "woking-sportsbox",
+      "properties": {
+        "id": "woking-sportsbox",
+        "name": "Woking Sportsbox - Everyone Active",
+        "address": "Egley Road, Woking GU22 0AF",
+        "url": "https://www.everyoneactive.com/centre/woking-sportsbox/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5741419,
+          51.2997852
+        ]
+      }
+    }
+  ]
+}

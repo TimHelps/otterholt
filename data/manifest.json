@@ -1,0 +1,61 @@
+{
+  "generated": "2026-10-05T08:34:03.692729+00:00",
+  "options": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "defaults": {
+    "station": 10,
+    "pool": 15
+  },
+  "provider": "valhalla",
+  "poolOperators": [
+    {
+      "id": "better",
+      "label": "Better",
+      "file": "better-pool-gyms.geojson",
+      "field": "betterPoolMin",
+      "default": true
+    },
+    {
+      "id": "everyone-active",
+      "label": "Everyone Active",
+      "file": "everyone-active-pool-gyms.geojson",
+      "field": "everyoneActivePoolMin",
+      "default": true
+    },
+    {
+      "id": "virgin-active",
+      "label": "Virgin Active",
+      "file": "virgin-active-pool-gyms.geojson",
+      "field": "virginActivePoolMin",
+      "default": true
+    },
+    {
+      "id": "nuffield",
+      "label": "Nuffield",
+      "file": "nuffield-pool-gyms.geojson",
+      "field": "nuffieldPoolMin",
+      "default": true
+    },
+    {
+      "id": "active-lambeth",
+      "label": "Active Lambeth",
+      "file": "active-lambeth-pool-gyms.geojson",
+      "field": "activeLambethPoolMin",
+      "default": true
+    }
+  ],
+  "counts": {
+    "postcodes": 50116
+  },
+  "files": {
+    "candidates": "postcode-candidates.json",
+    "poolReach": "postcode-pool-reach.json",
+    "sales": "district-sales.json",
+    "stations": "night-stations.geojson",
+    "venues": "pool-gyms.geojson"
+  }
+}

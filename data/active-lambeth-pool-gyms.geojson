@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "archbishops-park",
+      "properties": {
+        "id": "archbishops-park",
+        "name": "Archbishop’s Park",
+        "address": "London, SE1 7LE",
+        "url": "https://active.lambeth.gov.uk/locations/archbishops-park/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.116009,
+          51.496295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brixton-recreation-centre",
+      "properties": {
+        "id": "brixton-recreation-centre",
+        "name": "Brixton Recreation Centre",
+        "address": "London, SW9 8QQ",
+        "url": "https://active.lambeth.gov.uk/locations/brixton-recreation-centre/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1131,
+          51.46382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brockwell-lido",
+      "properties": {
+        "id": "brockwell-lido",
+        "name": "Brockwell Lido",
+        "address": "London, SE24 0PA",
+        "url": "https://active.lambeth.gov.uk/locations/brockwell-lido/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.109042,
+          51.454376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "clapham",
+      "properties": {
+        "id": "clapham",
+        "name": "Clapham Leisure Centre",
+        "address": "London, SW4 6DB",
+        "url": "https://active.lambeth.gov.uk/locations/clapham/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.134558,
+          51.463651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ferndale",
+      "properties": {
+        "id": "ferndale",
+        "name": "Ferndale Community Sports Centre",
+        "address": "London, SW9 8BP",
+        "url": "https://active.lambeth.gov.uk/locations/ferndale/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.116317,
+          51.463297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "flaxman",
+      "properties": {
+        "id": "flaxman",
+        "name": "Flaxman Sports Centre",
+        "address": "London, SE5 9DF",
+        "url": "https://active.lambeth.gov.uk/locations/flaxman/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.099938,
+          51.471872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "herne-hill",
+      "properties": {
+        "id": "herne-hill",
+        "name": "Herne Hill Lifestyle Centre",
+        "address": "London, SE24 0DG",
+        "url": "https://active.lambeth.gov.uk/locations/herne-hill/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.096584,
+          51.460784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streatham",
+      "properties": {
+        "id": "streatham",
+        "name": "Streatham Ice and Leisure Centre",
+        "address": "London, SW16 6HX",
+        "url": "https://active.lambeth.gov.uk/locations/streatham/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.130486,
+          51.423757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "west-norwood",
+      "properties": {
+        "id": "west-norwood",
+        "name": "West Norwood Health and Leisure Centre",
+        "address": "London, SE27 0DF",
+        "url": "https://active.lambeth.gov.uk/locations/west-norwood/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.104895,
+          51.431799
+        ]
+      }
+    }
+  ]
+}

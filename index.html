@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Compare London flat sale prices by postcode district near Night Tube stations and gym pools."
+    />
+    <title>Otterholt</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/maplibre-gl@5.7.1/dist/maplibre-gl.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <div id="map" aria-label="Interactive map of candidate London postcode districts"></div>
+
+      <section class="control-panel" aria-labelledby="map-title">
+        <div class="title-row">
+          <div>
+            <p class="eyebrow">Otterholt</p>
+            <h1 id="map-title">Find the sweet spot</h1>
+          </div>
+          <button
+            id="info-button"
+            class="icon-button"
+            type="button"
+            aria-label="Show methodology"
+            aria-expanded="false"
+          >
+            i
+          </button>
+        </div>
+
+        <div class="layer-toggles" aria-label="Map layers">
+          <label>
+            <input type="checkbox" data-layer="candidate-points" checked />
+            <span><i class="district-swatch"></i>Districts</span>
+          </label>
+          <label>
+            <input type="checkbox" data-layer="stations" />
+            <span>🚇 Night Tube</span>
+          </label>
+          <label>
+            <input type="checkbox" data-layer="pools" />
+            <span>🏊 Pool</span>
+          </label>
+        </div>
+
+        <div class="controls">
+          <label>
+            <span>Walk to Night Tube</span>
+            <select id="station-minutes"></select>
+          </label>
+          <label>
+            <span>Walk to pool</span>
+            <select id="pool-minutes"></select>
+          </label>
+        </div>
+
+        <div class="pool-operators">
+          <p class="control-caption">Include pools from</p>
+          <div id="pool-operator-toggles" class="pool-operator-toggles"></div>
+        </div>
+
+        <div class="price-legend" aria-label="Median flat sale price colour scale">
+          <span id="price-low">Lower</span>
+          <i></i>
+          <span id="price-high">Higher</span>
+        </div>
+
+        <p id="status" class="status" role="status">Loading map data…</p>
+
+        <div id="methodology" class="methodology" hidden>
+          <p>
+            Each dot is a postcode district containing at least one postcode
+            location within the selected walking bands of both a Night Tube
+            station and at least one selected gym operator with a pool. The dot
+            sits at the average
+            position of the matching postcode locations in that district.
+          </p>
+          <p>
+            Colour shows the postcode-district median completed flat or
+            maisonette sale during 2025–26. These are area indicators, not
+            valuations of individual properties.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/maplibre-gl@5.7.1/dist/maplibre-gl.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

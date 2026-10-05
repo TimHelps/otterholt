@@ -1,0 +1,3599 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "everyone-active-abbey-leisure-centre",
+      "properties": {
+        "id": "abbey-leisure-centre",
+        "name": "Abbey Leisure Centre",
+        "address": "Bobby Moore Way, Barking, IG11 7HW",
+        "url": "https://www.everyoneactive.com/centre/abbey-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.078359421611305,
+          51.535251382627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-abbs-cross-health-and-fitness",
+      "properties": {
+        "id": "abbs-cross-health-and-fitness",
+        "name": "Abbs Cross Health and Fitness",
+        "address": "Abbs Cross Lane, Hornchurch, RM12 4YB",
+        "url": "https://www.everyoneactive.com/centre/abbs-cross-health-and-fitness/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.20788138093359976,
+          51.552692850175916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-academy-sport",
+      "properties": {
+        "id": "academy-sport",
+        "name": "Academy Sport",
+        "address": "Torquay Street, London, W2 5EW",
+        "url": "https://www.everyoneactive.com/centre/academy-sport/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1915959005249,
+          51.520218393085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-everyone-active-acton-centre",
+      "properties": {
+        "id": "everyone-active-acton-centre",
+        "name": "Acton Centre",
+        "address": "High Street, Acton, W3 6NE",
+        "url": "https://www.everyoneactive.com/centre/everyone-active-acton-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.26677687374955,
+          51.506370085132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-533",
+      "properties": {
+        "id": "533",
+        "name": "Albany Leisure Centre",
+        "address": "505 Hertford Road Middlesex EN3 5XH",
+        "url": "https://www.better.org.uk/leisure-centre/london/enfield/albany-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Studio, Swimming Pools, Sauna and Steam Room, Lockers, Car Park, Group Cycle Studio, Inclusive facilities",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0454634,
+          51.6679382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-aldersgate",
+      "properties": {
+        "id": "aldersgate",
+        "name": "Aldersgate, London",
+        "address": "London, EC1A 4HD",
+        "url": "https://www.virginactive.co.uk/clubs/aldersgate",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.097507,
+          51.517471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-islington-angel",
+      "properties": {
+        "id": "islington-angel",
+        "name": "Angel, Islington",
+        "address": "London, EC1V 7DG",
+        "url": "https://www.virginactive.co.uk/clubs/islington-angel",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.105233,
+          51.531373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "active-lambeth-archbishops-park",
+      "properties": {
+        "id": "archbishops-park",
+        "name": "Archbishop’s Park",
+        "address": "London, SE1 7LE",
+        "url": "https://active.lambeth.gov.uk/locations/archbishops-park/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.116009,
+          51.496295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-209",
+      "properties": {
+        "id": "209",
+        "name": "Archway Leisure Centre",
+        "address": "Macdonald Road Islington London N19 5DD",
+        "url": "https://www.better.org.uk/leisure-centre/london/islington/archway",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Pools, Health Suite, Studio",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1358459,
+          51.5657716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-84",
+      "properties": {
+        "id": "84",
+        "name": "Atherton Leisure Centre",
+        "address": "189 Romford Road London E15 4JF",
+        "url": "https://www.better.org.uk/leisure-centre/london/newham/atherton-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym & Soft Play Refurbishment, Gym, Swimming Pools, Fitness Class Studios, Soft Play",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0145260002,
+          51.5443992615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-bank",
+      "properties": {
+        "id": "bank",
+        "name": "Bank, London",
+        "address": "London, EC2N 1DW",
+        "url": "https://www.virginactive.co.uk/clubs/bank",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.085398,
+          51.514765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-2",
+      "properties": {
+        "id": "2",
+        "name": "Barnet Copthall Leisure Centre",
+        "address": "Champions Way Hendon London NW4 1PX",
+        "url": "https://www.better.org.uk/leisure-centre/london/barnet/barnet-copthall-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Barnet Car Parking, Swimming Pools, Studio, Gym, Cafe, Sports Hall",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2271050066,
+          51.6044006348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-batchwood-golf-and-sports-centre",
+      "properties": {
+        "id": "batchwood-golf-and-sports-centre",
+        "name": "Batchwood Golf and Sports Centre",
+        "address": "Batchwood Dr, St Albans, AL3 5XA",
+        "url": "https://www.everyoneactive.com/centre/batchwood-golf-and-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.35444908839112,
+          51.766816383714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-becontree-heath-leisure-centre",
+      "properties": {
+        "id": "becontree-heath-leisure-centre",
+        "name": "Becontree Heath Leisure Centre",
+        "address": "Althorne Way, Dagenham, RM10 7FH",
+        "url": "https://www.everyoneactive.com/centre/becontree-heath-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.14917373657227,
+          51.560931184459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-berkhamsted-leisure-centre",
+      "properties": {
+        "id": "berkhamsted-leisure-centre",
+        "name": "Berkhamsted Leisure Centre",
+        "address": "Lagley Meadow, Douglas Gardens, Berkhamsted, HP4 3QQ",
+        "url": "https://www.everyoneactive.com/centre/berkhamsted-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.580344981066446,
+          51.76426869497429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-373",
+      "properties": {
+        "id": "373",
+        "name": "Better Gym Pinner",
+        "address": "69 Bridge Street Pinner Greater London HA5 3HZ",
+        "url": "https://www.better.org.uk/leisure-centre/london/harrow/better-gym-pinner",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Cardio Zone, Strength Zone, Functional Zone, Resistance Zone, Fitness Studio, Sauna and Steam Room, Swimming Pool Access",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3853380084,
+          51.5952987671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-37",
+      "properties": {
+        "id": "37",
+        "name": "Botwell Green Sports and Leisure Centre",
+        "address": "East Avenue Hayes Middlesex UB3 2HW",
+        "url": "https://www.better.org.uk/leisure-centre/london/hillingdon/botwell-green",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Soft Play, Gym, Swimming Pool, Studio, Sauna, Gymnastics Hall, Sports Hall, Creche, 7 & 9 aside 3G Astro Turf, Car Park Information",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4182119966,
+          51.5074996948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-brent-valley-golf-course",
+      "properties": {
+        "id": "brent-valley-golf-course",
+        "name": "Brent Valley Golf Course & Fitness Centre",
+        "address": "Church Road, Hanwell W7 3BE",
+        "url": "https://www.everyoneactive.com/centre/brent-valley-golf-course/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.340147399999978,
+          51.51591310000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-23",
+      "properties": {
+        "id": "23",
+        "name": "Britannia Leisure Centre",
+        "address": "Pitfield Street Hackney London N1 5FT",
+        "url": "https://www.better.org.uk/leisure-centre/london/hackney/britannia-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Detailed Accessibility Information, Gym, Swimming Pools, Leisure Pool, Sports Hall, Group Cycle Zone, Studios, Rooftop Pitches, Rooftop Courts, Sauna & Steam Room, Crèche, Soft Play, Squash Courts, Meeting Rooms, Café",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0836109966,
+          51.5353012085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "active-lambeth-brixton-recreation-centre",
+      "properties": {
+        "id": "brixton-recreation-centre",
+        "name": "Brixton Recreation Centre",
+        "address": "London, SW9 8QQ",
+        "url": "https://active.lambeth.gov.uk/locations/brixton-recreation-centre/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1131,
+          51.46382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "active-lambeth-brockwell-lido",
+      "properties": {
+        "id": "brockwell-lido",
+        "name": "Brockwell Lido",
+        "address": "London, SE24 0PA",
+        "url": "https://active.lambeth.gov.uk/locations/brockwell-lido/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.109042,
+          51.454376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-214",
+      "properties": {
+        "id": "214",
+        "name": "Cally Pool & Gym",
+        "address": "229 Caledonian Road Islington London N1 0NH",
+        "url": "https://www.better.org.uk/leisure-centre/london/islington/cally",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pools, Gym, Detailed Accessibility Information",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.116909,
+          51.5385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-canary-riverside",
+      "properties": {
+        "id": "canary-riverside",
+        "name": "Canary Riverside Social Wellness Club",
+        "address": "London, E14 8RR",
+        "url": "https://www.virginactive.co.uk/clubs/canary-riverside",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.028035,
+          51.506089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-walbrook",
+      "properties": {
+        "id": "walbrook",
+        "name": "Cannon Street",
+        "address": "London, EC4N 5AE",
+        "url": "https://www.virginactive.co.uk/clubs/walbrook",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.090424,
+          51.511771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-45",
+      "properties": {
+        "id": "45",
+        "name": "Canons Leisure Centre",
+        "address": "Madeira Road Mitcham London Surrey CR4 4HD",
+        "url": "https://www.better.org.uk/leisure-centre/london/merton/canons-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Soft Play, Gym, Swimming pools, Studio, Sports Hall, MUGA Pitches, Squash",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1613389999,
+          51.3997001648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-central-park-leisure-centre",
+      "properties": {
+        "id": "central-park-leisure-centre",
+        "name": "Central Park Leisure Centre",
+        "address": "Gooshays Drive, Harold Hill, Romford RM3 9LB",
+        "url": "https://www.everyoneactive.com/centre/central-park-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2241609,
+          51.6079138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-chalfont-leisure-centre",
+      "properties": {
+        "id": "chalfont-leisure-centre",
+        "name": "Chalfont Leisure Centre",
+        "address": "Nicol Road, Chalfont St Peter, Buckinghamshire, SL9 9LR",
+        "url": "https://www.everyoneactive.com/centre/chalfont-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.56897647157932,
+          51.608414330379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-104",
+      "properties": {
+        "id": "104",
+        "name": "Charlton Lido and Lifestyle Club",
+        "address": "Hornfair Park Shooters Hill Road, Greenwich London SE18 4LX",
+        "url": "https://www.better.org.uk/leisure-centre/london/greenwich/charlton-lido",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "50m Heated Outdoor Pool, Open Air Group Cycle Studio, Tennis Courts, Gym, Studio, Sun Terrace, BMX Race Track, Detailed Accessibility Information, Calm Studio, Café, Sauna",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0389669985,
+          51.4751014709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-cheam-leisure-centre",
+      "properties": {
+        "id": "cheam-leisure-centre",
+        "name": "Cheam Leisure Centre",
+        "address": "Malden Road, Sutton SM3 8EP",
+        "url": "https://www.everyoneactive.com/centre/cheam-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22477600000001985,
+          51.368225162731136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-40",
+      "properties": {
+        "id": "40",
+        "name": "Chelsea Sports Centre",
+        "address": "Chelsea Manor Street Kensington & Chelsea London SW3 5PL",
+        "url": "https://www.better.org.uk/leisure-centre/london/kensington-and-chelsea/chelsea-sports-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming Pools, Studios, Outdoor Sports",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1678230017,
+          51.4874000549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-chesham-leisure-centre",
+      "properties": {
+        "id": "chesham-leisure-centre",
+        "name": "Chesham Leisure Centre",
+        "address": "White Hill, Chesham, HP5 1BB",
+        "url": "https://www.everyoneactive.com/centre/chesham-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.59987235495424,
+          51.708952038989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-chilterns-lifestyle-centre",
+      "properties": {
+        "id": "chilterns-lifestyle-centre",
+        "name": "Chilterns Lifestyle Centre",
+        "address": "Chiltern Avenue, Amersham, Buckinghamshire HP6 5AH",
+        "url": "https://www.everyoneactive.com/centre/chilterns-lifestyle-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.60204523862305,
+          51.675647967265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-64",
+      "properties": {
+        "id": "64",
+        "name": "Chingford Leisure Centre",
+        "address": "Unit 4 Larkswood Leisure Park, New Road Chingford, Waltham Forest London E4 9EY",
+        "url": "https://www.better.org.uk/leisure-centre/london/waltham-forest/chingford-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Pools, Studio",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0055590002,
+          51.617099762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-chiswick-park",
+      "properties": {
+        "id": "chiswick-park",
+        "name": "Chiswick Park",
+        "address": "London, W4 5YA",
+        "url": "https://www.virginactive.co.uk/clubs/chiswick-park",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.275628,
+          51.494623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-chiswick-riverside",
+      "properties": {
+        "id": "chiswick-riverside",
+        "name": "Chiswick Riverside Social Wellness Club",
+        "address": "London, W4 2SX",
+        "url": "https://www.virginactive.co.uk/clubs/chiswick-riverside",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.25632,
+          51.47547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "active-lambeth-clapham",
+      "properties": {
+        "id": "clapham",
+        "name": "Clapham Leisure Centre",
+        "address": "London, SW4 6DB",
+        "url": "https://active.lambeth.gov.uk/locations/clapham/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.134558,
+          51.463651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-clapham",
+      "properties": {
+        "id": "clapham",
+        "name": "Clapham, London",
+        "address": "London, SW4 0HG",
+        "url": "https://www.virginactive.co.uk/clubs/clapham",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.141753,
+          51.466203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-24",
+      "properties": {
+        "id": "24",
+        "name": "Clissold Leisure Centre",
+        "address": "63 Clissold Road Hackney London N16 9EX",
+        "url": "https://www.better.org.uk/leisure-centre/london/hackney/clissold-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Detailed Accessibility Information, Clissold Centre Refurbishment, Elevate Studio, Soft Play, Gym, Pools, Group Cycle Studio, Sports Hall, Studios, Squash Courts, Health Suite, Creche, Clissold Park Splash Pad",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0845950022,
+          51.5578994751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-crouch-end",
+      "properties": {
+        "id": "crouch-end",
+        "name": "Crouch End, London",
+        "address": "London, N8 8PT",
+        "url": "https://www.virginactive.co.uk/clubs/crouch-end",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.122678,
+          51.580789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-7",
+      "properties": {
+        "id": "7",
+        "name": "Crystal Palace National Sports Centre",
+        "address": "Ledrington Road Crystal Palace London SE19 2BB",
+        "url": "https://www.better.org.uk/leisure-centre/london/crystal-palace/crystal-palace-national-sports-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, 25m Training Pool, Teaching Pool, Soft Play, Studios, Squash Courts, Athletics Stadium and Indoor Track, Tennis and Padel Courts, Sports Halls, Pitches, Beach Volleyball Courts, Climbing Wall, Cafe",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.068547003,
+          51.4203987122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-dormers-wells-leisure-centre",
+      "properties": {
+        "id": "dormers-wells-leisure-centre",
+        "name": "Dormers Wells Leisure Centre",
+        "address": "Dormers Wells Lane, Southall, Middlesex, UB1 3JB",
+        "url": "https://www.everyoneactive.com/centre/dormers-wells-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.36573529243469,
+          51.517662827236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-49",
+      "properties": {
+        "id": "49",
+        "name": "East Ham Leisure Centre",
+        "address": "324 Barking Road East Ham London E6 2RT",
+        "url": "https://www.better.org.uk/leisure-centre/london/newham/east-ham-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Studio and Changing Room Refurbishment, Gym, Women-only Gym, Fitness Class Studio, Swimming Pool, Sports Hall, Creche",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0589689985,
+          51.5334014893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-eastwood-leisure-centre",
+      "properties": {
+        "id": "eastwood-leisure-centre",
+        "name": "Eastwood Leisure Centre - Everyone Active",
+        "address": "Albert Drive, Sheerwater, Woking GU21 5RF",
+        "url": "https://www.everyoneactive.com/centre/eastwood-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.52549878968811,
+          51.335855885589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-edenbridge-leisure-centre",
+      "properties": {
+        "id": "edenbridge-leisure-centre",
+        "name": "Edenbridge Leisure Centre - Everyone Active",
+        "address": "Edenbridge Leisure Centre, Stangrove Park, Edenbridge, Kent, TN8 5LU",
+        "url": "https://www.everyoneactive.com/centre/edenbridge-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.062730771504516,
+          51.200868227993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-535",
+      "properties": {
+        "id": "535",
+        "name": "Edmonton Leisure Centre",
+        "address": "2 The Broadway London Greater London N9 0TR",
+        "url": "https://www.better.org.uk/leisure-centre/london/enfield/edmonton-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Fitness Class Studio, Group Cycle Studio, Sports Hall, Soft Play, Swimming Pools, Sauna and Steam Room",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0604725,
+          51.6242056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-elthorne-sports-centre",
+      "properties": {
+        "id": "elthorne-sports-centre",
+        "name": "Elthorne Sports Centre",
+        "address": "Westlea Road (off Boston Road), London W7 2AD",
+        "url": "https://www.everyoneactive.com/centre/elthorne-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.33103823661804,
+          51.499927205523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "active-lambeth-ferndale",
+      "properties": {
+        "id": "ferndale",
+        "name": "Ferndale Community Sports Centre",
+        "address": "London, SW9 8BP",
+        "url": "https://active.lambeth.gov.uk/locations/ferndale/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.116317,
+          51.463297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-5",
+      "properties": {
+        "id": "5",
+        "name": "Finchley Lido Leisure Centre",
+        "address": "Great North Leisure Park Chaplin Square Finchley London N12 0GL",
+        "url": "https://www.better.org.uk/leisure-centre/london/barnet/finchley-lido-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Car Parking at Finchley Lido, Facilities hire, Swimming Pools, Gym, Studios, Sauna",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1735419929,
+          51.604801178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "active-lambeth-flaxman",
+      "properties": {
+        "id": "flaxman",
+        "name": "Flaxman Sports Centre",
+        "address": "London, SE5 9DF",
+        "url": "https://active.lambeth.gov.uk/locations/flaxman/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.099938,
+          51.471872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-508",
+      "properties": {
+        "id": "508",
+        "name": "Forest Hill Pools",
+        "address": "Dartmouth Road Forest Hill London SE23 2HZ",
+        "url": "https://www.better.org.uk/leisure-centre/london/lewisham/forest-hill-pools",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Venue Hire, Gym, Swimming Pools, Group Cycle Zone, Studios, Café",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0574136004,
+          51.4379005432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-fulham-pools",
+      "properties": {
+        "id": "fulham-pools",
+        "name": "Fulham, London",
+        "address": "London, SW6 7ST",
+        "url": "https://www.virginactive.co.uk/clubs/fulham-pools",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.208748,
+          51.484502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-507",
+      "properties": {
+        "id": "507",
+        "name": "Glass Mill Leisure Centre",
+        "address": "41 Loampit Vale London SE13 7FT",
+        "url": "https://www.better.org.uk/leisure-centre/london/lewisham/glass-mill-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming Pools, Fitness Studios, Health Suite, Café, Thomas Betts Meeting Room, Crèche, Group Cycle Studio",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0163800009,
+          51.4641990662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-greenford-sports-centre",
+      "properties": {
+        "id": "greenford-sports-centre",
+        "name": "Greenford Sports Centre",
+        "address": "Greenford Sports Centre, Lady Margaret Road UB1 2NP",
+        "url": "https://www.everyoneactive.com/centre/greenford-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.36971465197598,
+          51.531228694724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-barbican",
+      "properties": {
+        "id": "barbican",
+        "name": "Gym in Barbican, London",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/barbican",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09715717716366634,
+          51.52026892727497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-battersea",
+      "properties": {
+        "id": "battersea",
+        "name": "Gym in Battersea, London, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/battersea",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16383469104766846,
+          51.470734546900324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-bloomsbury",
+      "properties": {
+        "id": "bloomsbury",
+        "name": "Gym in Bloomsbury, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/bloomsbury",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11820495128631592,
+          51.524108308586634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-bromley",
+      "properties": {
+        "id": "bromley",
+        "name": "Gym in Bromley, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/bromley",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.019816160202026367,
+          51.39123620696662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-brondesbury-park",
+      "properties": {
+        "id": "brondesbury-park",
+        "name": "Gym in Brondesbury Park, Willesden",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/brondesbury-park",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22163629531860352,
+          51.54492054815141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-baltimore-wharf",
+      "properties": {
+        "id": "baltimore-wharf",
+        "name": "Gym in Canary Wharf, Baltimore Wharf",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/baltimore-wharf",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.014891624450683594,
+          51.49688487954392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-cheam",
+      "properties": {
+        "id": "cheam",
+        "name": "Gym in Cheam, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/cheam",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.21883606910705566,
+          51.3544201754895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-chingford",
+      "properties": {
+        "id": "chingford",
+        "name": "Gym in Chingford, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/chingford",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.005574,
+          51.617063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-chislehurst",
+      "properties": {
+        "id": "chislehurst",
+        "name": "Gym in Chislehurst, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/chislehurst",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.08840560913085936,
+          51.422506894164115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-city",
+      "properties": {
+        "id": "city",
+        "name": "Gym in City of London, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/city",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09123802185058592,
+          51.50992771316674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-covent-garden",
+      "properties": {
+        "id": "covent-garden",
+        "name": "Gym in Covent Garden, London, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/covent-garden",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12407898902893065,
+          51.51410423698592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-croydon-central",
+      "properties": {
+        "id": "croydon-central",
+        "name": "Gym in Croydon Central, Fitness & Wellbeing, CR0 1RJ",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/croydon-central",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10108172893524169,
+          51.37294240012008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-croydon",
+      "properties": {
+        "id": "croydon",
+        "name": "Gym in Croydon, Fitness & Wellbeing, CR0 4RJ",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/croydon",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11580705642700194,
+          51.35682212348673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-ealing",
+      "properties": {
+        "id": "ealing",
+        "name": "Gym in Ealing, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/ealing",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3029905,
+          51.5120604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-enfield",
+      "properties": {
+        "id": "enfield",
+        "name": "Gym in Enfield with Pool & Sauna",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/enfield",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08108854293823241,
+          51.64860938486901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-friern-barnet",
+      "properties": {
+        "id": "friern-barnet",
+        "name": "Gym in Friern Barnet, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/friern-barnet",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14721035957336426,
+          51.61312670879909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-fulham",
+      "properties": {
+        "id": "fulham",
+        "name": "Gym in Fulham, London, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/fulham",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2220761775970459,
+          51.47720003183766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-hendon",
+      "properties": {
+        "id": "hendon",
+        "name": "Gym in Hendon, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/hendon",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2264750003814697,
+          51.5825299385253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-ilford",
+      "properties": {
+        "id": "ilford",
+        "name": "Gym in Ilford, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/ilford",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.073281,
+          51.557432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-islington",
+      "properties": {
+        "id": "islington",
+        "name": "Gym in Islington, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/islington",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10193467140197753,
+          51.53684971890119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-kingston",
+      "properties": {
+        "id": "kingston",
+        "name": "Gym in Kingston upon Thames, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/kingston",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3036367893218994,
+          51.415207294708324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-moorgate",
+      "properties": {
+        "id": "moorgate",
+        "name": "Gym in Moorgate, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/moorgate",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08940339088439941,
+          51.51918499107367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-norbury",
+      "properties": {
+        "id": "norbury",
+        "name": "Gym in Norbury, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/norbury",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11833906173706056,
+          51.40532990412505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-paddington",
+      "properties": {
+        "id": "paddington",
+        "name": "Gym in Paddington, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/paddington",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.17996013164520264,
+          51.51914493478235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-shoreditch",
+      "properties": {
+        "id": "shoreditch",
+        "name": "Gym in Shoreditch, London",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/shoreditch",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07942557334899902,
+          51.52539662787609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-surbiton",
+      "properties": {
+        "id": "surbiton",
+        "name": "Gym in Surbiton, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/surbiton",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3161841630935669,
+          51.39200944802498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-wandsworth-southside",
+      "properties": {
+        "id": "wandsworth-southside",
+        "name": "Gym in Wandsworth Southside, SW18 4TQ",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/wandsworth-southside",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19461035728454587,
+          51.456340123238945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-wandsworth",
+      "properties": {
+        "id": "wandsworth",
+        "name": "Gym in Wandsworth, Fitness & Wellbeing SW18 4SQ",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/wandsworth",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19466400146484375,
+          51.44706004789865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-wimbledon",
+      "properties": {
+        "id": "wimbledon",
+        "name": "Gym in Wimbledon SW19, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/wimbledon",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2045881748199463,
+          51.419730373638956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nuffield-twickenham",
+      "properties": {
+        "id": "twickenham",
+        "name": "Gyms in Twickenham, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/twickenham",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.342746,
+          51.450998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-harrow-leisure-centre",
+      "properties": {
+        "id": "harrow-leisure-centre",
+        "name": "Harrow Leisure Centre",
+        "address": "Christchurch Avenue, Harrow HA3 5BD",
+        "url": "https://www.everyoneactive.com/centre/harrow-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3275077248534899,
+          51.592288229076914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-harrow-lodge-leisure-centre",
+      "properties": {
+        "id": "harrow-lodge-leisure-centre",
+        "name": "Harrow Lodge Leisure Centre (Hornchurch)",
+        "address": "Hornchurch Road, Hornchurch, RM11 1JU",
+        "url": "https://www.everyoneactive.com/centre/harrow-lodge-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.20270820019453,
+          51.562036988875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-hatch-end-swimming-pool",
+      "properties": {
+        "id": "hatch-end-swimming-pool",
+        "name": "Hatch End Swimming Pool",
+        "address": "Uxbridge Road, Hatch End HA5 4EA",
+        "url": "https://www.everyoneactive.com/centre/hatch-end-swimming-pool/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.36272337668651744,
+          51.60742123422414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-hemel-hempstead-leisure-centre",
+      "properties": {
+        "id": "hemel-hempstead-leisure-centre",
+        "name": "Hemel Hempstead Leisure Centre",
+        "address": "Park Road, Hemel Hempstead, Hertfordshire, HP1 1JS",
+        "url": "https://www.everyoneactive.com/centre/hemel-hempstead-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4780564,
+          51.7454459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "active-lambeth-herne-hill",
+      "properties": {
+        "id": "herne-hill",
+        "name": "Herne Hill Lifestyle Centre",
+        "address": "London, SE24 0DG",
+        "url": "https://active.lambeth.gov.uk/locations/herne-hill/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.096584,
+          51.460784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-207",
+      "properties": {
+        "id": "207",
+        "name": "Highbury Leisure Centre",
+        "address": "Highbury Crescent Islington London N5 1RR",
+        "url": "https://www.better.org.uk/leisure-centre/london/islington/highbury",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Pools, Gym, Fitness Studio, Group Cycle Studio, Health Suite",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.103269,
+          51.5477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-36",
+      "properties": {
+        "id": "36",
+        "name": "Highgrove Pool and Fitness Centre",
+        "address": "Eastcote Road Hume Way Ruislip Hillingdon HA4 8DZ",
+        "url": "https://www.better.org.uk/leisure-centre/london/hillingdon/highgrove-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming Pool, Studio, Group Cycle Studio, Teaching Pool, Sauna and Steam, Functional Zone, Car Park Information",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4092819989,
+          51.5797996521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-502",
+      "properties": {
+        "id": "502",
+        "name": "Hillingdon Sports & Leisure Complex",
+        "address": "Gatting Way Middlesex UB8 1ES",
+        "url": "https://www.better.org.uk/leisure-centre/london/hillingdon/hillingdon-sports-lc",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Indoor Swimming Pools, Outdoor Lido, Studios, Sports Hall, 3G Football Pitches, 400m Athletic Track, Health Suite, Café, The Urban Rose, Car Park Information",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4669280052,
+          51.5508995056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-102",
+      "properties": {
+        "id": "102",
+        "name": "Ironmonger Row Baths",
+        "address": "1 Norman Street Islington EC1V 3AA",
+        "url": "https://www.better.org.uk/leisure-centre/london/islington/ironmonger-row-baths",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Pools, Spa Experience, Squash Courts, Studio",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.094859,
+          51.5266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-islip-manor-sports-centre",
+      "properties": {
+        "id": "islip-manor-sports-centre",
+        "name": "Islip Manor Sports Centre",
+        "address": "Eastcote Lane, Northolt UB5 4HP",
+        "url": "https://www.everyoneactive.com/centre/islip-manor-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.37545006983646,
+          51.551656151068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-jim-peters-stadium",
+      "properties": {
+        "id": "jim-peters-stadium",
+        "name": "Jim Peters Stadium",
+        "address": "Lodge Avenue, Dagenham, Essex RM8 2JR",
+        "url": "https://www.everyoneactive.com/centre/jim-peters-stadium/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.11325144973761,
+          51.545527732685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-39",
+      "properties": {
+        "id": "39",
+        "name": "Kensington Leisure Centre",
+        "address": "Silchester Road Kensington & Chelsea London W10 6EX",
+        "url": "https://www.better.org.uk/leisure-centre/london/kensington-and-chelsea/kensington-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Soft Play, Gym, Swimming Pools, Studio 1 & 2, Sports Hall, Spa Experience, Squash Courts, Meeting/Function Room, Better Coffee Corner",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2140489966,
+          51.5136985779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-kensington",
+      "properties": {
+        "id": "kensington",
+        "name": "Kensington Social Wellness Club",
+        "address": "London, W8 4PL",
+        "url": "https://www.virginactive.co.uk/clubs/kensington",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.190379,
+          51.502799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-8",
+      "properties": {
+        "id": "8",
+        "name": "Kentish Town Sports Centre",
+        "address": "Grafton Road Kentish Town London NW5 3DU",
+        "url": "https://www.better.org.uk/leisure-centre/london/camden/kentish-town-sports-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Studio, Swimming Pools",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1447129995,
+          51.5475006104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-langley-leisure-centre",
+      "properties": {
+        "id": "langley-leisure-centre",
+        "name": "Langley Leisure Centre",
+        "address": "Parlaunt Rd, Slough, SL3 8BD",
+        "url": "https://www.everyoneactive.com/centre/langley-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.535765215754509,
+          51.49931191064179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-65",
+      "properties": {
+        "id": "65",
+        "name": "Leyton Leisure Centre",
+        "address": "763, High Road Leyton , Waltham Forest London E10 5AB",
+        "url": "https://www.better.org.uk/leisure-centre/london/waltham-forest/leyton-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Car Parking, Gym, Swimming Pools, Studio, Aqua Play for Children, Health Suite",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0087860003,
+          51.5730018616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-229",
+      "properties": {
+        "id": "229",
+        "name": "Leytonstone Leisure Centre",
+        "address": "Cathall Road Leytonstone, Waltham Forest London E11 4LA",
+        "url": "https://www.better.org.uk/leisure-centre/london/waltham-forest/leytonstone-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Car Parking, Gym, Studio, Pools, Sports Hall, Soft Play, Sauna, Hireable facility - Meeting room, Café",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0039400002,
+          51.5598983765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-london-aquatics-centre",
+      "properties": {
+        "id": "london-aquatics-centre",
+        "name": "London Aquatics Centre - Everyone Active",
+        "address": "Queen Elizabeth Olympic Park, London E20 2AQ",
+        "url": "https://www.everyoneactive.com/centre/london-aquatics-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.011143643450706,
+          51.539948614687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-marshall-street-leisure-centre-spa",
+      "properties": {
+        "id": "marshall-street-leisure-centre-spa",
+        "name": "Marshall Street Leisure Centre & Spa",
+        "address": "15 Marshall Street, London W1F 7EL",
+        "url": "https://www.everyoneactive.com/centre/marshall-street-leisure-centre-spa/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1377796,
+          51.5136454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-mayfair",
+      "properties": {
+        "id": "mayfair",
+        "name": "Mayfair Social Wellness Club",
+        "address": "London, W1K 7DA",
+        "url": "https://www.virginactive.co.uk/clubs/mayfair",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.156345,
+          51.513159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-mill-hill",
+      "properties": {
+        "id": "mill-hill",
+        "name": "Mill Hill, London",
+        "address": "London, NW7 1GU",
+        "url": "https://www.virginactive.co.uk/clubs/mill-hill",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.210501,
+          51.6077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-moberly-sports-centre",
+      "properties": {
+        "id": "moberly-sports-centre",
+        "name": "Moberly Sports Centre",
+        "address": "25 Chamberlayne Road, London, NW10 3NB",
+        "url": "https://www.everyoneactive.com/centre/moberly-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.21696323636125,
+          51.529889408795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-moorgate",
+      "properties": {
+        "id": "moorgate",
+        "name": "Moorgate, London",
+        "address": "London, EC1Y 8LP",
+        "url": "https://www.virginactive.co.uk/clubs/moorgate",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.089679,
+          51.523027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-478",
+      "properties": {
+        "id": "478",
+        "name": "Morden Leisure Centre",
+        "address": "Morden Leisure Centre London Road Morden SM4 5HE",
+        "url": "https://www.better.org.uk/leisure-centre/london/merton/morden-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming Pools, Studio, Coffee Corner, Disc Golf and Pitch and Putt Courses",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2056930065,
+          51.3926010132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-455",
+      "properties": {
+        "id": "455",
+        "name": "New Addington Leisure & Community Centre",
+        "address": "88 Central Parade Croydon London CR0 0JB",
+        "url": "https://www.better.org.uk/leisure-centre/london/croydon/new-addington-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pools, Gym, Studio, Sports Hall, Community Rooms",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0159939993,
+          51.3406982422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-496",
+      "properties": {
+        "id": "496",
+        "name": "New Barnet Leisure Centre",
+        "address": "1 Lawton Road Barnet EN4 9BS",
+        "url": "https://www.better.org.uk/leisure-centre/london/barnet/new-barnet-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Facilities hire, Barnet Car Parking, Gym, Swimming Pools, Studio, Outdoor Tennis Courts, Café",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1697860062,
+          51.6537017822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-50",
+      "properties": {
+        "id": "50",
+        "name": "Newham Leisure Centre",
+        "address": "281, Prince Regent Lane Plaistow E13 8SD",
+        "url": "https://www.better.org.uk/leisure-centre/london/newham/newham-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Studio and Soft Play Refurbishment, Gym, Fitness Class Studios, Soft Play, Group Cycling Studio, Swimming, Sports Hall, Pitches, Athletics Track, Multi-Sports Centre",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0324519984,
+          51.5181999207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-noak-hill-sports-complex",
+      "properties": {
+        "id": "noak-hill-sports-complex",
+        "name": "Noak Hill Sports Complex",
+        "address": "Noak Hill Road, Romford RM3 7FL",
+        "url": "https://www.everyoneactive.com/centre/noak-hill-sports-complex/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.20907106809318,
+          51.611567711738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-northolt-leisure-centre",
+      "properties": {
+        "id": "northolt-leisure-centre",
+        "name": "Northolt Leisure Centre",
+        "address": "Eastcote Lane North, Northolt UB5 4AB",
+        "url": "https://www.everyoneactive.com/centre/northolt-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3684499,
+          51.5490215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-notting-hill",
+      "properties": {
+        "id": "notting-hill",
+        "name": "Notting Hill, London",
+        "address": "London, W11 1QT",
+        "url": "https://www.virginactive.co.uk/clubs/notting-hill",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.211222,
+          51.516212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-9",
+      "properties": {
+        "id": "9",
+        "name": "Oasis Sports Centre",
+        "address": "32, Endell Street (Main Entrance High Holborn) Covent Garden London WC2H 9AG",
+        "url": "https://www.better.org.uk/leisure-centre/london/camden/oasis-sports-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Outdoor Swimming Pool, Indoor Swimming Pool, Gym, Squash, Studios, Sauna",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1258870065,
+          51.5157012939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-paddington-recreation-ground",
+      "properties": {
+        "id": "paddington-recreation-ground",
+        "name": "Paddington Recreation Ground",
+        "address": "Randolph Avenue, London W9 1PD",
+        "url": "https://www.everyoneactive.com/centre/paddington-recreation-ground/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1907844,
+          51.5301947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-222",
+      "properties": {
+        "id": "222",
+        "name": "Pancras Square Leisure",
+        "address": "Pancras Square Leisure 5 Pancras Square London N1C 4AG",
+        "url": "https://www.better.org.uk/leisure-centre/london/camden/pancras-square",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Accessible information, Gym, Studios, Swimming Pools, Sauna and Steam Room",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1267720014,
+          51.5340003967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-perivale-park-athletics-track",
+      "properties": {
+        "id": "perivale-park-athletics-track",
+        "name": "Perivale Park Athletics Track",
+        "address": "Stockdove Way, Perivale UB6 8TJ",
+        "url": "https://www.everyoneactive.com/centre/perivale-park-athletics-track/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.33660136427920406,
+          51.531797729840875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-35",
+      "properties": {
+        "id": "35",
+        "name": "Phoenix Fitness Centre and Janet Adegoke Swimming Pool",
+        "address": "Bloemfontein Road Shepherds Bush London W12 7DB",
+        "url": "https://www.better.org.uk/leisure-centre/london/hammersmith-and-fulham/phoenix-fitness-centre-and-janet-adegoke-swimming-pool",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming pool, Studio, Sports Hall",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2353499979,
+          51.5126991272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-566",
+      "properties": {
+        "id": "566",
+        "name": "Platinum Jubilee Leisure Centre",
+        "address": "Rowhleys Place West Drayton London UB7 9NQ",
+        "url": "https://www.better.org.uk/leisure-centre/london/hillingdon/platinum-jubilee-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Group Cycle Studio, Swimming Pools, Sports Hall, Fitness Studio, 3G Football Pitch, Soft Play, Clip 'n Climb, Sauna and Steam, Café, Meeting Room Hire, Car Park Information",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4702698,
+          51.501422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-pool-in-the-park",
+      "properties": {
+        "id": "pool-in-the-park",
+        "name": "Pool in the Park - Everyone Active",
+        "address": "Woking Park, Kingfield Road, Woking GU22 9BA",
+        "url": "https://www.everyoneactive.com/centre/pool-in-the-park/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.55641413862304,
+          51.309532588902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-558",
+      "properties": {
+        "id": "558",
+        "name": "Pools on the Park",
+        "address": "Old Deer Park Twickenham Road Richmond TW9 2SF",
+        "url": "https://www.better.org.uk/leisure-centre/london/richmond-upon-thames/pools-on-the-park",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Outdoor Swimming Pool, Swimming Pools, Studio, Group Cycling Studio, Café",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3060855865,
+          51.4653192728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-porchester-centre",
+      "properties": {
+        "id": "porchester-centre",
+        "name": "Porchester Leisure Centre",
+        "address": "Queensway, Bayswater, London W2 5HS",
+        "url": "https://www.everyoneactive.com/centre/porchester-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1766342461722,
+          51.518499492673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-queen-mother-sports-centre",
+      "properties": {
+        "id": "queen-mother-sports-centre",
+        "name": "Queen Mother Sports Centre",
+        "address": "223 Vauxhall Bridge Rd, Victoria, London SW1V 1EL",
+        "url": "https://www.everyoneactive.com/centre/queen-mother-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14947800203493,
+          51.493340014813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-rainham-leisure-centre",
+      "properties": {
+        "id": "rainham-leisure-centre",
+        "name": "Rainham Leisure Centre - Everyone Active",
+        "address": "Viking way, Rainham, RM13 9YZ",
+        "url": "https://www.everyoneactive.com/centre/rainham-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.19074551863547,
+          51.519441328059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-reynolds-sports-centre",
+      "properties": {
+        "id": "reynolds-sports-centre",
+        "name": "Reynolds Sports Centre",
+        "address": "Acton High School, Gunnersbury Lane W3 8EY",
+        "url": "https://www.everyoneactive.com/centre/reynolds-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.28010963558199364,
+          51.505590039019246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-sapphire-ice-leisure",
+      "properties": {
+        "id": "sapphire-ice-leisure",
+        "name": "Sapphire Ice & Leisure",
+        "address": "24 Western Road, Romford, RM1 3JT",
+        "url": "https://www.everyoneactive.com/centre/sapphire-ice-leisure/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.18420758016147,
+          51.577143523019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-sevenoaks-leisure-centre",
+      "properties": {
+        "id": "sevenoaks-leisure-centre",
+        "name": "Sevenoaks Leisure Centre - Everyone Active",
+        "address": "Sevenoaks Leisure Centre, Buckhurst Lane, Sevenoaks, Kent, TN13 1LW",
+        "url": "https://www.everyoneactive.com/centre/sevenoaks-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1963484287262,
+          51.271447304511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-452",
+      "properties": {
+        "id": "452",
+        "name": "South Norwood Leisure Centre",
+        "address": "164 Portland Road Croydon London SE25 4PT",
+        "url": "https://www.better.org.uk/leisure-centre/london/croydon/south-norwood-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pool, Gym, Studio",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0675799996,
+          51.393699646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-south-oxhey-leisure-centre",
+      "properties": {
+        "id": "south-oxhey-leisure-centre",
+        "name": "South Oxhey Leisure Centre",
+        "address": "Gosforth Lane, South Oxhey, Watford, WD19 7AX",
+        "url": "https://www.everyoneactive.com/centre/south-oxhey-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.39209604263306,
+          51.627288476905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-536",
+      "properties": {
+        "id": "536",
+        "name": "Southbury Leisure Centre",
+        "address": "192 Southbury Road Enfield London EN1 1YP",
+        "url": "https://www.better.org.uk/leisure-centre/london/enfield/southbury-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pool, Gym, Spin Studio, Studio, Sauna and Steam Room, Soft Play, Sports Hall, Café, Football Pitch",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0621367,
+          51.6520366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-537",
+      "properties": {
+        "id": "537",
+        "name": "Southgate Leisure Centre",
+        "address": "Winchmore Hill Road London N14 6AD",
+        "url": "https://www.better.org.uk/leisure-centre/london/enfield/southgate-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Car Park, Gym, Fitness Class Studios, Swimming Pool, Health Suite, Group Cycling Studio",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1244667,
+          51.6343256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-strand",
+      "properties": {
+        "id": "strand",
+        "name": "Strand Social Wellness Club",
+        "address": "London, WC2R 0DT",
+        "url": "https://www.virginactive.co.uk/clubs/strand",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.121718,
+          51.509867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "active-lambeth-streatham",
+      "properties": {
+        "id": "streatham",
+        "name": "Streatham Ice and Leisure Centre",
+        "address": "London, SW16 6HX",
+        "url": "https://active.lambeth.gov.uk/locations/streatham/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.130486,
+          51.423757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-streatham",
+      "properties": {
+        "id": "streatham",
+        "name": "Streatham, London",
+        "address": "London, SW16 1UB",
+        "url": "https://www.virginactive.co.uk/clubs/streatham",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.130174,
+          51.432826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-10",
+      "properties": {
+        "id": "10",
+        "name": "Swiss Cottage Leisure Centre",
+        "address": "Adelaide Road Camden London NW3 3NF",
+        "url": "https://www.better.org.uk/leisure-centre/london/camden/swiss-cottage-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pools, Gym, Studios, Sports Hall, Soft Play, Spa Experience, Outdoor Football Pitch, Squash, Cafe",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1734160036,
+          51.5424003601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-557",
+      "properties": {
+        "id": "557",
+        "name": "Teddington Pools and Fitness Centre",
+        "address": "Vicarage Road Teddington TW11 8EZ",
+        "url": "https://www.better.org.uk/leisure-centre/london/richmond-upon-thames/teddington-pools-and-fitness-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pools, Hydrotherapy Pool, Fitness Class Studio, Group Cycle Studio, Gym",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3316423298,
+          51.4283000971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-21",
+      "properties": {
+        "id": "21",
+        "name": "Thamesmere Leisure Centre",
+        "address": "Thamesmere Drive Thamesmead London SE28 8RE",
+        "url": "https://www.better.org.uk/leisure-centre/london/greenwich/thamesmere-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Pools, Studio, Healthwise (GP Referral), Library",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1092019975,
+          51.5078010559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-the-brentwood-centre",
+      "properties": {
+        "id": "the-brentwood-centre",
+        "name": "The Brentwood Centre",
+        "address": "Doddinghurst Road, Brentwood, Essex, CM15 9NN",
+        "url": "https://www.everyoneactive.com/centre/the-brentwood-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.29972921163939,
+          51.6348526637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-the-centre-slough",
+      "properties": {
+        "id": "the-centre-slough",
+        "name": "The Centre (Slough)",
+        "address": "Farnham Road, Slough, SL1 4UT",
+        "url": "https://www.everyoneactive.com/centre/the-centre-slough/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.61476230621338,
+          51.519371919967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-18",
+      "properties": {
+        "id": "18",
+        "name": "The Eltham Centre",
+        "address": "2 Archery Road Eltham London SE9 1HA",
+        "url": "https://www.better.org.uk/leisure-centre/london/greenwich/eltham-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Centre Refurbishment, Gym, Pools, Studios, Sauna & Steam, Library",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0573670007,
+          51.451499939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-272",
+      "properties": {
+        "id": "272",
+        "name": "The Greenwich Centre",
+        "address": "12 Lambarde Square Greenwich London SE10 9GB",
+        "url": "https://www.better.org.uk/leisure-centre/london/greenwich/greenwichcentre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Centre Refurbishment, Gym, Pools, Studios, Library",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0084849996,
+          51.4852981567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-451",
+      "properties": {
+        "id": "451",
+        "name": "Thornton Heath Leisure Centre",
+        "address": "100 High Street Thornton Heath, Croydon London CR7 8LF",
+        "url": "https://www.better.org.uk/leisure-centre/london/croydon/thornton-heath-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming Pool, Gym, Studio, Health Suite, Sports Hall",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0969450027,
+          51.3991012573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-vale-farm-sports-centre",
+      "properties": {
+        "id": "vale-farm-sports-centre",
+        "name": "Vale Farm Sports Centre",
+        "address": "Watford Road, North Wembley HA0 3HG",
+        "url": "https://www.everyoneactive.com/centre/vale-farm-sports-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.31639337539673,
+          51.559350384883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-469",
+      "properties": {
+        "id": "469",
+        "name": "Vauxhall Leisure Centre",
+        "address": "50 South Lambeth Road Vauxhall, Lambeth London SW8 1DY",
+        "url": "https://www.better.org.uk/leisure-centre/london/lambeth/vauxhall-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym and Studio Refurbishment, Gym, Studio, Group Cycle Studio, Swimming Pool, Sauna and Steam, Interactive Technology & Mywellness",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1234399974,
+          51.4838981628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-453",
+      "properties": {
+        "id": "453",
+        "name": "Waddon Leisure Centre",
+        "address": "Purley Way Waddon, Croydon London CR0 4RG",
+        "url": "https://www.better.org.uk/leisure-centre/london/croydon/waddon-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Studio, Swimming Pools, Soft Play, Sports Hall, Café, Meeting Room, Studio 2",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1176789999,
+          51.364200592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-67",
+      "properties": {
+        "id": "67",
+        "name": "Waltham Forest Feel Good Centre",
+        "address": "170 Chingford Road Walthamstow, Waltham Forest London E17 5AA",
+        "url": "https://www.better.org.uk/leisure-centre/london/waltham-forest/waltham-forest-feel-good-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Car Parking, Gym, Pools, Studios, Spa Experience, Play Park, Athletics Track, Soft Play (Under 3's), Clip 'n Climb, Sports Hall, MUGA, Cafe",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0149900001,
+          51.5932998657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-wandsworth-smugglers-way",
+      "properties": {
+        "id": "wandsworth-smugglers-way",
+        "name": "Wandsworth, London",
+        "address": "London, SW18 1DG",
+        "url": "https://www.virginactive.co.uk/clubs/wandsworth-smugglers-way",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.188901,
+          51.463379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-watford-leisure-centre-central",
+      "properties": {
+        "id": "watford-leisure-centre-central",
+        "name": "Watford Leisure Centre – Central",
+        "address": "Peace Prospect, Watford WD17 3HA",
+        "url": "https://www.everyoneactive.com/centre/watford-leisure-centre-central/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4046756029129,
+          51.660244426903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-watford-leisure-centre-woodside",
+      "properties": {
+        "id": "watford-leisure-centre-woodside",
+        "name": "Watford Leisure Centre – Woodside",
+        "address": "Horseshoe Lane, Garston, Watford WD25 7HH",
+        "url": "https://www.everyoneactive.com/centre/watford-leisure-centre-woodside/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.39182965889551724,
+          51.69570450000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-509",
+      "properties": {
+        "id": "509",
+        "name": "Wavelengths Leisure Centre",
+        "address": "Giffin Street Deptford SE8 4RJ",
+        "url": "https://www.better.org.uk/leisure-centre/london/lewisham/wavelengths-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming Pools, Studios, Soft Play, Café, Health Suite",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0243100002,
+          51.4776000977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-343",
+      "properties": {
+        "id": "343",
+        "name": "Wembley Leisure Centre",
+        "address": "Grand Felda House, Empire Way Wembley London HA9 0EF",
+        "url": "https://www.better.org.uk/leisure-centre/london/wembley/wembley-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Swimming pool, Gym, Group Cycle Studio, Studio, Health suite",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2830789983,
+          51.5606002808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "active-lambeth-west-norwood",
+      "properties": {
+        "id": "west-norwood",
+        "name": "West Norwood Health and Leisure Centre",
+        "address": "London, SE27 0DF",
+        "url": "https://active.lambeth.gov.uk/locations/west-norwood/",
+        "operator": "active-lambeth",
+        "operatorLabel": "Active Lambeth",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://active.lambeth.gov.uk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.104895,
+          51.431799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-westcroft-leisure-centre",
+      "properties": {
+        "id": "westcroft-leisure-centre",
+        "name": "Westcroft Leisure Centre",
+        "address": "Westcroft Road, Carshalton SM5 2TG",
+        "url": "https://www.everyoneactive.com/centre/westcroft-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1583674067459242,
+          51.36790700000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-westminster-lodge-leisure-centre",
+      "properties": {
+        "id": "westminster-lodge-leisure-centre",
+        "name": "Westminster Lodge Leisure Centre",
+        "address": "Holywell Hill, St Albans AL1 2DJ",
+        "url": "https://www.everyoneactive.com/centre/westminster-lodge-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.34413814544678,
+          51.745658396948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-white-oak-leisure-centre",
+      "properties": {
+        "id": "white-oak-leisure-centre",
+        "name": "White Oak Leisure Centre",
+        "address": "Hilda May Ave, Swanley BR8 7BT",
+        "url": "https://www.everyoneactive.com/centre/white-oak-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.17019350527955,
+          51.400852119085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-william-penn-leisure-centre",
+      "properties": {
+        "id": "william-penn-leisure-centre",
+        "name": "William Penn Leisure Centre",
+        "address": "Shepherds Lane, Mill End, Rickmansworth, Hertfordshire, WD3 8JN",
+        "url": "https://www.everyoneactive.com/centre/william-penn-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.51845122128725,
+          51.638892369095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-47",
+      "properties": {
+        "id": "47",
+        "name": "Wimbledon Leisure Centre and Spa",
+        "address": "Latimer Road Wimbledon London SW19 1EW",
+        "url": "https://www.better.org.uk/leisure-centre/london/merton/wimbledon-leisure-centre",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym, Swimming Pools, Studio, Spa Experience, Group Cycle",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1924220026,
+          51.4201011658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "virgin-active-wimbledon-worple-road",
+      "properties": {
+        "id": "wimbledon-worple-road",
+        "name": "Wimbledon, London",
+        "address": "London, SW19 4JS",
+        "url": "https://www.virginactive.co.uk/clubs/wimbledon-worple-road",
+        "operator": "virgin-active",
+        "operatorLabel": "Virgin Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.virginactive.co.uk/sitemap.xml"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.209528,
+          51.421879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-woking-leisure-centre",
+      "properties": {
+        "id": "woking-leisure-centre",
+        "name": "Woking Leisure Centre - Everyone Active",
+        "address": "Woking Park, Kingfield Road, Woking GU22 9BA",
+        "url": "https://www.everyoneactive.com/centre/woking-leisure-centre/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.55626447057421,
+          51.310029220105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "everyone-active-woking-sportsbox",
+      "properties": {
+        "id": "woking-sportsbox",
+        "name": "Woking Sportsbox - Everyone Active",
+        "address": "Egley Road, Woking GU22 0AF",
+        "url": "https://www.everyoneactive.com/centre/woking-sportsbox/",
+        "operator": "everyone-active",
+        "operatorLabel": "Everyone Active",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.everyoneactive.com/centre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5741419,
+          51.2997852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "better-559",
+      "properties": {
+        "id": "559",
+        "name": "Woolwich Waves",
+        "address": "49 Woolwich New Road London SE18 6EU",
+        "url": "https://www.better.org.uk/leisure-centre/london/greenwich/woolwich-waves",
+        "operator": "better",
+        "operatorLabel": "Better",
+        "hasGym": true,
+        "hasPool": true,
+        "facilities": "Gym Equipment Upgraded, Fitness Areas, Studios, Swimming Pools, Virtual Studios, Sports Hall, Squash, 3G Football Pitch, Soft Play, Café, Spa Experience, Crèche",
+        "source": "https://www.better.org.uk/leisure-centre/london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.068551,
+          51.489917
+        ]
+      }
+    }
+  ]
+}

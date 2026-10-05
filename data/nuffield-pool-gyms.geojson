@@ -1,0 +1,665 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "barbican",
+      "properties": {
+        "id": "barbican",
+        "name": "Gym in Barbican, London",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/barbican",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09715717716366634,
+          51.52026892727497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "battersea",
+      "properties": {
+        "id": "battersea",
+        "name": "Gym in Battersea, London, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/battersea",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16383469104766846,
+          51.470734546900324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bloomsbury",
+      "properties": {
+        "id": "bloomsbury",
+        "name": "Gym in Bloomsbury, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/bloomsbury",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11820495128631592,
+          51.524108308586634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bromley",
+      "properties": {
+        "id": "bromley",
+        "name": "Gym in Bromley, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/bromley",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.019816160202026367,
+          51.39123620696662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brondesbury-park",
+      "properties": {
+        "id": "brondesbury-park",
+        "name": "Gym in Brondesbury Park, Willesden",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/brondesbury-park",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22163629531860352,
+          51.54492054815141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "baltimore-wharf",
+      "properties": {
+        "id": "baltimore-wharf",
+        "name": "Gym in Canary Wharf, Baltimore Wharf",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/baltimore-wharf",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.014891624450683594,
+          51.49688487954392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cheam",
+      "properties": {
+        "id": "cheam",
+        "name": "Gym in Cheam, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/cheam",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.21883606910705566,
+          51.3544201754895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chingford",
+      "properties": {
+        "id": "chingford",
+        "name": "Gym in Chingford, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/chingford",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.005574,
+          51.617063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chislehurst",
+      "properties": {
+        "id": "chislehurst",
+        "name": "Gym in Chislehurst, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/chislehurst",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.08840560913085936,
+          51.422506894164115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "city",
+      "properties": {
+        "id": "city",
+        "name": "Gym in City of London, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/city",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09123802185058592,
+          51.50992771316674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "covent-garden",
+      "properties": {
+        "id": "covent-garden",
+        "name": "Gym in Covent Garden, London, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/covent-garden",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12407898902893065,
+          51.51410423698592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "croydon-central",
+      "properties": {
+        "id": "croydon-central",
+        "name": "Gym in Croydon Central, Fitness & Wellbeing, CR0 1RJ",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/croydon-central",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10108172893524169,
+          51.37294240012008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "croydon",
+      "properties": {
+        "id": "croydon",
+        "name": "Gym in Croydon, Fitness & Wellbeing, CR0 4RJ",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/croydon",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11580705642700194,
+          51.35682212348673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ealing",
+      "properties": {
+        "id": "ealing",
+        "name": "Gym in Ealing, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/ealing",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3029905,
+          51.5120604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "enfield",
+      "properties": {
+        "id": "enfield",
+        "name": "Gym in Enfield with Pool & Sauna",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/enfield",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08108854293823241,
+          51.64860938486901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "friern-barnet",
+      "properties": {
+        "id": "friern-barnet",
+        "name": "Gym in Friern Barnet, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/friern-barnet",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14721035957336426,
+          51.61312670879909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fulham",
+      "properties": {
+        "id": "fulham",
+        "name": "Gym in Fulham, London, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/fulham",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2220761775970459,
+          51.47720003183766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hendon",
+      "properties": {
+        "id": "hendon",
+        "name": "Gym in Hendon, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/hendon",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2264750003814697,
+          51.5825299385253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ilford",
+      "properties": {
+        "id": "ilford",
+        "name": "Gym in Ilford, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/ilford",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.073281,
+          51.557432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "islington",
+      "properties": {
+        "id": "islington",
+        "name": "Gym in Islington, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/islington",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10193467140197753,
+          51.53684971890119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kingston",
+      "properties": {
+        "id": "kingston",
+        "name": "Gym in Kingston upon Thames, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/kingston",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3036367893218994,
+          51.415207294708324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "moorgate",
+      "properties": {
+        "id": "moorgate",
+        "name": "Gym in Moorgate, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/moorgate",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08940339088439941,
+          51.51918499107367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "norbury",
+      "properties": {
+        "id": "norbury",
+        "name": "Gym in Norbury, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/norbury",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11833906173706056,
+          51.40532990412505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "paddington",
+      "properties": {
+        "id": "paddington",
+        "name": "Gym in Paddington, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/paddington",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.17996013164520264,
+          51.51914493478235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shoreditch",
+      "properties": {
+        "id": "shoreditch",
+        "name": "Gym in Shoreditch, London",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/shoreditch",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07942557334899902,
+          51.52539662787609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "surbiton",
+      "properties": {
+        "id": "surbiton",
+        "name": "Gym in Surbiton, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/surbiton",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3161841630935669,
+          51.39200944802498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wandsworth-southside",
+      "properties": {
+        "id": "wandsworth-southside",
+        "name": "Gym in Wandsworth Southside, SW18 4TQ",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/wandsworth-southside",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19461035728454587,
+          51.456340123238945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wandsworth",
+      "properties": {
+        "id": "wandsworth",
+        "name": "Gym in Wandsworth, Fitness & Wellbeing SW18 4SQ",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/wandsworth",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19466400146484375,
+          51.44706004789865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "wimbledon",
+      "properties": {
+        "id": "wimbledon",
+        "name": "Gym in Wimbledon SW19, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/wimbledon",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2045881748199463,
+          51.419730373638956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "twickenham",
+      "properties": {
+        "id": "twickenham",
+        "name": "Gyms in Twickenham, Fitness & Wellbeing",
+        "address": "",
+        "url": "https://www.nuffieldhealth.com/gyms/twickenham",
+        "operator": "nuffield",
+        "operatorLabel": "Nuffield",
+        "hasGym": true,
+        "hasPool": true,
+        "source": "https://www.nuffieldhealth.com/gyms/gyms-in-london"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.342746,
+          51.450998
+        ]
+      }
+    }
+  ]
+}
