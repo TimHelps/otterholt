@@ -48,8 +48,11 @@ def request_json(
             with urllib.request.urlopen(request, timeout=90) as response:
                 return json.load(response)
         except urllib.error.HTTPError as error:
+            detail = error.read().decode(errors="replace")
+            if error.code == 429 and attempt < attempts - 1:
+                time.sleep(25)
+                continue
             if error.code not in {429, 500, 502, 503, 504} or attempt == attempts - 1:
-                detail = error.read().decode(errors="replace")
                 raise RuntimeError(f"{url}: HTTP {error.code}: {detail}") from error
         except (TimeoutError, urllib.error.URLError, ConnectionError, OSError):
             if attempt == attempts - 1:
@@ -95,3 +98,13 @@ def read_json(path: Path) -> Any:
 
 def feature_collection(features: list[dict[str, Any]]) -> dict[str, Any]:
     return {"type": "FeatureCollection", "features": features}
+
+
+def parse_tfl_zone_max(zone: str) -> int:
+    normalized = zone.replace(" ", "").replace("/", "+")
+    parts = [int(part) for part in normalized.split("+") if part.isdigit()]
+    if not parts:
+        raise ValueError(f"Invalid TfL zone value: {zone!r}")
+    return max(parts)
+
+

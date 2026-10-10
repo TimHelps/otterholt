@@ -7,6 +7,7 @@ const PRICE_CAP_STEP = 100_000;
 const elements = {
   stationSelect: document.querySelector("#station-minutes"),
   poolSelect: document.querySelector("#pool-minutes"),
+  maxZoneSelect: document.querySelector("#max-zone"),
   priceCapSelect: document.querySelector("#price-cap"),
   priceLow: document.querySelector("#price-low"),
   priceHigh: document.querySelector("#price-high"),
@@ -114,10 +115,14 @@ function syncMobilePanelState() {
   setPanelExpanded(panelExpandedFromStorage());
 }
 
+function maxZoneLabel(maxZone) {
+  return `Zone ${maxZone}`;
+}
+
 function updatePanelSummary(featureCount) {
   const maxPrice = selectedMaxPrice();
   const pricePart = maxPrice ? `≤${formatPrice(maxPrice, true)}` : "any price";
-  elements.panelSummary.textContent = `${elements.stationSelect.value} min tube · ${elements.poolSelect.value} min pool · ${pricePart} · ${featureCount.toLocaleString("en-GB")} districts`;
+  elements.panelSummary.textContent = `${elements.stationSelect.value} min tube · ${maxZoneLabel(selectedMaxZone())} · ${elements.poolSelect.value} min pool · ${pricePart} · ${featureCount.toLocaleString("en-GB")} districts`;
 }
 
 function fetchJson(path) {
@@ -175,6 +180,18 @@ function salePriceCapValues() {
   return caps;
 }
 
+function populateMaxZoneSelect(select, zones, selected) {
+  select.replaceChildren(
+    ...zones.map((maxZone) => {
+      const option = document.createElement("option");
+      option.value = String(maxZone);
+      option.textContent = maxZoneLabel(maxZone);
+      option.selected = maxZone === selected;
+      return option;
+    }),
+  );
+}
+
 function populatePriceCapSelect(select, selected) {
   const caps = salePriceCapValues();
   const options = [
@@ -199,10 +216,44 @@ function selectedMaxPrice() {
   return value ? Number(value) : null;
 }
 
+function selectedMaxZone() {
+  return Number(elements.maxZoneSelect.value);
+}
+
+function stationZoneMax(station) {
+  if (station?.zoneMax != null && station.zoneMax !== "") {
+    return Number(station.zoneMax);
+  }
+  const parts = String(station?.zone ?? "")
+    .replaceAll(/\s/g, "")
+    .replaceAll("/", "+")
+    .split("+")
+    .map((part) => Number(part))
+    .filter((value) => Number.isFinite(value));
+  return parts.length ? Math.max(...parts) : 99;
+}
+
+function stationWithinMaxZone(station, maxZone) {
+  return stationZoneMax(station) <= maxZone;
+}
+
+function qualifyingStationMinutes(postcode, stationMinutesLimit, maxZone) {
+  const entries = stationReach?.byPostcode?.[postcode] ?? [];
+  let best = 99;
+  for (const [stationIndex, minutes] of entries) {
+    if (minutes > stationMinutesLimit) continue;
+    const station = stationReach.stations[stationIndex];
+    if (!stationWithinMaxZone(station, maxZone)) continue;
+    if (minutes < best) best = minutes;
+  }
+  return best;
+}
+
 function updateUrl() {
   const params = new URLSearchParams({
     stationMinutes: elements.stationSelect.value,
     poolMinutes: elements.poolSelect.value,
+    maxZone: String(selectedMaxZone()),
   });
   const maxPrice = selectedMaxPrice();
   if (maxPrice) {
@@ -236,8 +287,11 @@ function isLayerToggleEnabled(layerId) {
 }
 
 function refreshStationMarkerVisibility() {
-  const visible = isLayerToggleEnabled("stations");
+  const layerVisible = isLayerToggleEnabled("stations");
+  const maxZone = selectedMaxZone();
   for (const entry of contextMarkers.stations) {
+    const visible =
+      layerVisible && Number.isFinite(entry.zoneMax) && entry.zoneMax <= maxZone;
     entry.marker.getElement().style.display = visible ? "" : "none";
   }
 }
@@ -280,6 +334,7 @@ function updateCandidates() {
 
   const stationMinutes = selectedNumber(elements.stationSelect);
   const poolMinutes = selectedNumber(elements.poolSelect);
+  const maxZone = selectedMaxZone();
   const enabledOperators = enabledPoolOperatorIds();
   if (!enabledOperators.length) {
     map.getSource("candidates").setData({ type: "FeatureCollection", features: [] });
@@ -295,7 +350,7 @@ function updateCandidates() {
     const postcode = point[candidateFieldIndex.postcode];
     const longitude = point[candidateFieldIndex.longitude];
     const latitude = point[candidateFieldIndex.latitude];
-    const stationMin = point[candidateFieldIndex.stationMin];
+    const stationMin = qualifyingStationMinutes(postcode, stationMinutes, maxZone);
     const poolMin = qualifyingPoolMinutes(point);
     if (stationMin > stationMinutes || poolMin > poolMinutes) {
       continue;
@@ -330,6 +385,7 @@ function updateCandidates() {
     for (const [stationIndex, minutes] of stationReachEntries) {
       if (minutes > stationMinutes) continue;
       const station = stationReach.stations[stationIndex];
+      if (!stationWithinMaxZone(station, maxZone)) continue;
       const existing = districtAggregate.stations.get(station.key);
       if (!existing || minutes < existing.minutes) {
         districtAggregate.stations.set(station.key, {
@@ -481,7 +537,10 @@ function addContextMarkers(stations, venues) {
       coordinates,
       () => showContextPopup("station", properties, coordinates),
     );
-    contextMarkers.stations.push({ marker });
+    contextMarkers.stations.push({
+      marker,
+      zoneMax: Number(properties.zoneMax ?? stationZoneMax(properties)),
+    });
   }
 
   for (const feature of venues.features) {
@@ -543,10 +602,10 @@ function formatReachSection(title, items, formatMeta) {
   return `<b>${escapeHtml(title)}</b><ul class="popup-reach-list">${list}</ul>`;
 }
 
-function formatReachBlocks(stationMinutes, poolMinutes, properties) {
+function formatReachBlocks(stationMinutes, poolMinutes, maxZone, properties) {
   const blocks = [
     formatReachSection(
-      `Night Tube within ${stationMinutes} min walk:`,
+      `Night Tube (${maxZoneLabel(maxZone)}) within ${stationMinutes} min walk:`,
       parseReachProperty(properties, "triggeringStations"),
       (station) => `${escapeHtml(station.lines)}, ≤${station.minutes} min`,
     ),
@@ -581,6 +640,7 @@ function showCandidatePopup(feature) {
       : "No range";
   const stationMinutes = selectedNumber(elements.stationSelect);
   const poolMinutes = selectedNumber(elements.poolSelect);
+  const maxZone = selectedMaxZone();
 
   new maplibregl.Popup({ offset: 8 })
     .setLngLat(feature.geometry.coordinates)
@@ -590,7 +650,7 @@ function showCandidatePopup(feature) {
       <br><b>${escapeHtml(properties.district)} median flat sale:</b>
       ${formatPrice(districtSales.flatSaleMedian)}<br>
       <small>${saleRange}; ${districtSales.saleSamples ?? 0} sales</small>
-      ${formatReachBlocks(stationMinutes, poolMinutes, properties)}
+      ${formatReachBlocks(stationMinutes, poolMinutes, maxZone, properties)}
     `)
     .addTo(map);
 }
@@ -598,7 +658,7 @@ function showCandidatePopup(feature) {
 function showContextPopup(kind, properties, coordinates) {
   const detail =
     kind === "station"
-      ? `<br>Night service: ${escapeHtml(properties.lines)}`
+      ? `<br>Zone ${escapeHtml(properties.zone ?? "—")}<br>Night service: ${escapeHtml(properties.lines)}`
       : `<br>${escapeHtml(properties.operatorLabel || "Pool")} · ${escapeHtml(
           properties.address || "Gym with pool",
         )}`;
@@ -650,6 +710,13 @@ async function initialise() {
       elements.priceCapSelect,
       Number.isFinite(requestedMaxPrice) ? requestedMaxPrice : null,
     );
+    const maxZones = manifest.maxZones ?? [1, 2, 3, 4, 5, 6];
+    const requestedMaxZone = Number(queryValue("maxZone"));
+    populateMaxZoneSelect(
+      elements.maxZoneSelect,
+      maxZones,
+      maxZones.includes(requestedMaxZone) ? requestedMaxZone : manifest.defaults.maxZone ?? 6,
+    );
 
     map.addSource("candidates", {
       type: "geojson",
@@ -664,6 +731,10 @@ async function initialise() {
 
     elements.stationSelect.addEventListener("change", updateCandidates);
     elements.poolSelect.addEventListener("change", updateCandidates);
+    elements.maxZoneSelect.addEventListener("change", () => {
+      refreshStationMarkerVisibility();
+      updateCandidates();
+    });
     elements.priceCapSelect.addEventListener("change", updateCandidates);
   } catch (error) {
     console.error(error);

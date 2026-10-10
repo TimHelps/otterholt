@@ -63,26 +63,35 @@
           </label>
         </div>
 
-        <div class="controls">
-          <label>
-            <span>Walk to Night Tube</span>
+        <section class="filter-group" aria-labelledby="tube-filter-heading">
+          <h2 class="filter-group-heading" id="tube-filter-heading">Night Tube</h2>
+          <label class="filter-field">
+            <span>Walk to station</span>
             <select id="station-minutes"></select>
           </label>
-          <label>
+          <label class="filter-field">
+            <span>Max zone</span>
+            <select id="max-zone"></select>
+          </label>
+        </section>
+
+        <section class="filter-group" aria-labelledby="pool-filter-heading">
+          <h2 class="filter-group-heading" id="pool-filter-heading">Pool</h2>
+          <label class="filter-field">
             <span>Walk to pool</span>
             <select id="pool-minutes"></select>
           </label>
-        </div>
-
-        <div class="pool-operators">
           <p class="control-caption">Include pools from</p>
           <div id="pool-operator-toggles" class="pool-operator-toggles"></div>
-        </div>
+        </section>
 
-        <label class="price-cap">
-          <span>Hide districts above</span>
-          <select id="price-cap"></select>
-        </label>
+        <section class="filter-group" aria-labelledby="price-filter-heading">
+          <h2 class="filter-group-heading" id="price-filter-heading">Price</h2>
+          <label class="filter-field">
+            <span>Hide districts above</span>
+            <select id="price-cap"></select>
+          </label>
+        </section>
 
         <div class="price-legend" aria-label="Median flat sale price colour scale">
           <span id="price-low">Lower</span>

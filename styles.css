@@ -145,8 +145,38 @@ body {
   background: #2a9d8f;
 }
 
-.pool-operators {
+.filter-group {
   margin-top: 16px;
+}
+
+.filter-group-heading {
+  margin: 0 0 10px;
+  color: #40554d;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.filter-field {
+  display: block;
+}
+
+.filter-field + .filter-field {
+  margin-top: 12px;
+}
+
+.filter-field > span {
+  display: block;
+  margin-bottom: 7px;
+  color: #40554d;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.filter-group .control-caption {
+  margin-top: 12px;
 }
 
 .control-caption {
@@ -194,26 +224,6 @@ body {
   outline-offset: 1px;
 }
 
-.controls {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-top: 16px;
-}
-
-.controls label {
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-}
-
-.controls label > span {
-  color: #40554d;
-  font-size: 0.78rem;
-  font-weight: 700;
-  line-height: 1.15;
-}
-
 select {
   width: 100%;
   min-height: 40px;
@@ -231,20 +241,6 @@ select {
 select:focus-visible {
   outline: 3px solid rgb(39 117 243 / 25%);
   outline-offset: 1px;
-}
-
-.price-cap {
-  display: block;
-  margin-top: 16px;
-}
-
-.price-cap > span {
-  display: block;
-  margin-bottom: 7px;
-  color: #40554d;
-  font-size: 0.78rem;
-  font-weight: 700;
-  line-height: 1.1;
 }
 
 .price-legend {
@@ -348,6 +344,25 @@ select:focus-visible {
   color: #5a6b63;
 }
 
+@media (min-width: 601px) {
+  .control-panel {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100dvh - 36px);
+  }
+
+  .panel-header {
+    flex: 0 0 auto;
+  }
+
+  .control-panel__body {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+}
+
 @media (max-width: 600px) {
   .control-panel {
     top: auto;
@@ -395,9 +410,7 @@ select:focus-visible {
   }
 
   .layer-toggles,
-  .controls,
-  .pool-operators,
-  .price-cap,
+  .filter-group,
   .price-legend {
     margin-top: 12px;
   }
@@ -418,8 +431,3 @@ select:focus-visible {
   }
 }
 
-@media (max-width: 380px) {
-  .controls {
-    grid-template-columns: 1fr;
-  }
-}

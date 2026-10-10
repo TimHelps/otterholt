@@ -20,6 +20,7 @@ from common import (
     USER_AGENT,
     WALK_MINUTES,
     ensure_directories,
+    parse_tfl_zone_max,
     read_json,
     write_json,
 )
@@ -193,11 +194,16 @@ def build_postcode_station_reach(
 
         station_idx = len(station_catalog)
         properties = feature["properties"]
+        zone = str(properties.get("zone", ""))
+        if not zone:
+            raise RuntimeError(f"Station {point_id} is missing fare zone metadata")
         station_catalog.append(
             {
                 "key": point_id,
                 "name": properties["name"],
                 "lines": properties.get("lines", ""),
+                "zone": zone,
+                "zoneMax": int(properties.get("zoneMax", parse_tfl_zone_max(zone))),
             }
         )
 

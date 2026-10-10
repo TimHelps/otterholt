@@ -8,6 +8,8 @@
         "id": "940GZZLUACT",
         "name": "Acton Town Underground Station",
         "lines": "Piccadilly",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -25,6 +27,8 @@
         "id": "940GZZLUACY",
         "name": "Archway Underground Station",
         "lines": "Northern",
+        "zone": "2+3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -42,6 +46,8 @@
         "id": "940GZZLUASG",
         "name": "Arnos Grove Underground Station",
         "lines": "Piccadilly",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -59,6 +65,8 @@
         "id": "940GZZLUASL",
         "name": "Arsenal Underground Station",
         "lines": "Piccadilly",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -76,6 +84,8 @@
         "id": "940GZZLUBST",
         "name": "Baker Street Underground Station",
         "lines": "Jubilee",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -93,6 +103,8 @@
         "id": "940GZZLUBLM",
         "name": "Balham Underground Station",
         "lines": "Northern",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -110,6 +122,8 @@
         "id": "940GZZLUBNK",
         "name": "Bank Underground Station",
         "lines": "Central",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -127,6 +141,8 @@
         "id": "940GZZLUBKE",
         "name": "Barkingside Underground Station",
         "lines": "Central",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -144,6 +160,8 @@
         "id": "940GZZLUBSC",
         "name": "Barons Court Underground Station",
         "lines": "Piccadilly",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -161,6 +179,8 @@
         "id": "940GZZLUBZP",
         "name": "Belsize Park Underground Station",
         "lines": "Northern",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -178,6 +198,8 @@
         "id": "940GZZLUBMY",
         "name": "Bermondsey Underground Station",
         "lines": "Jubilee",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -195,6 +217,8 @@
         "id": "940GZZLUBLG",
         "name": "Bethnal Green Underground Station",
         "lines": "Central",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -212,6 +236,8 @@
         "id": "940GZZLUBLR",
         "name": "Blackhorse Road Underground Station",
         "lines": "Victoria",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -229,6 +255,8 @@
         "id": "940GZZLUBND",
         "name": "Bond Street Underground Station",
         "lines": "Central, Jubilee",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -246,6 +274,8 @@
         "id": "940GZZLUBOS",
         "name": "Boston Manor Underground Station",
         "lines": "Piccadilly",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -263,6 +293,8 @@
         "id": "940GZZLUBDS",
         "name": "Bounds Green Underground Station",
         "lines": "Piccadilly",
+        "zone": "3+4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -280,6 +312,8 @@
         "id": "940GZZLUBTX",
         "name": "Brent Cross Underground Station",
         "lines": "Northern",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -297,6 +331,8 @@
         "id": "940GZZLUBXN",
         "name": "Brixton Underground Station",
         "lines": "Victoria",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -314,6 +350,8 @@
         "id": "940GZZLUBKH",
         "name": "Buckhurst Hill Underground Station",
         "lines": "Central",
+        "zone": "5",
+        "zoneMax": 5,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -331,6 +369,8 @@
         "id": "940GZZLUBTK",
         "name": "Burnt Oak Underground Station",
         "lines": "Northern",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -348,6 +388,8 @@
         "id": "940GZZLUCAR",
         "name": "Caledonian Road Underground Station",
         "lines": "Piccadilly",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -365,6 +407,8 @@
         "id": "940GZZLUCTN",
         "name": "Camden Town Underground Station",
         "lines": "Northern",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -382,6 +426,8 @@
         "id": "910GCNDAW",
         "name": "Canada Water Rail Station",
         "lines": "Windrush",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -399,6 +445,8 @@
         "id": "940GZZLUCWR",
         "name": "Canada Water Underground Station",
         "lines": "Jubilee",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -416,6 +464,8 @@
         "id": "940GZZLUCYF",
         "name": "Canary Wharf Underground Station",
         "lines": "Jubilee",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -433,6 +483,8 @@
         "id": "940GZZLUCGT",
         "name": "Canning Town Underground Station",
         "lines": "Jubilee",
+        "zone": "2/3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -450,6 +502,8 @@
         "id": "910GCNNB",
         "name": "Canonbury Rail Station",
         "lines": "Windrush",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -467,6 +521,8 @@
         "id": "940GZZLUCPK",
         "name": "Canons Park Underground Station",
         "lines": "Jubilee",
+        "zone": "5",
+        "zoneMax": 5,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -484,6 +540,8 @@
         "id": "940GZZLUCFM",
         "name": "Chalk Farm Underground Station",
         "lines": "Northern",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -501,6 +559,8 @@
         "id": "940GZZLUCHL",
         "name": "Chancery Lane Underground Station",
         "lines": "Central",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -518,6 +578,8 @@
         "id": "940GZZLUCHX",
         "name": "Charing Cross Underground Station",
         "lines": "Northern",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -535,6 +597,8 @@
         "id": "940GZZLUCPC",
         "name": "Clapham Common Underground Station",
         "lines": "Northern",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -552,6 +616,8 @@
         "id": "940GZZLUCPN",
         "name": "Clapham North Underground Station",
         "lines": "Northern",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -569,6 +635,8 @@
         "id": "940GZZLUCPS",
         "name": "Clapham South Underground Station",
         "lines": "Northern",
+        "zone": "2+3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -586,6 +654,8 @@
         "id": "940GZZLUCKS",
         "name": "Cockfosters Underground Station",
         "lines": "Piccadilly",
+        "zone": "5",
+        "zoneMax": 5,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -603,6 +673,8 @@
         "id": "940GZZLUCND",
         "name": "Colindale Underground Station",
         "lines": "Northern",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -620,6 +692,8 @@
         "id": "940GZZLUCSD",
         "name": "Colliers Wood Underground Station",
         "lines": "Northern",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -637,6 +711,8 @@
         "id": "940GZZLUCGN",
         "name": "Covent Garden Underground Station",
         "lines": "Piccadilly",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -654,6 +730,8 @@
         "id": "910GDALS",
         "name": "Dalston Junction Rail Station",
         "lines": "Windrush",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -671,6 +749,8 @@
         "id": "940GZZLUDOH",
         "name": "Dollis Hill Underground Station",
         "lines": "Jubilee",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -688,6 +768,8 @@
         "id": "940GZZLUEBY",
         "name": "Ealing Broadway Underground Station",
         "lines": "Central",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -705,6 +787,8 @@
         "id": "940GZZLUECT",
         "name": "Earl's Court Underground Station",
         "lines": "Piccadilly",
+        "zone": "1+2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -722,6 +806,8 @@
         "id": "940GZZLUEAN",
         "name": "East Acton Underground Station",
         "lines": "Central",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -739,6 +825,8 @@
         "id": "940GZZLUEFY",
         "name": "East Finchley Underground Station",
         "lines": "Northern",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -756,6 +844,8 @@
         "id": "940GZZLUEGW",
         "name": "Edgware Underground Station",
         "lines": "Northern",
+        "zone": "5",
+        "zoneMax": 5,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -773,6 +863,8 @@
         "id": "940GZZLUEMB",
         "name": "Embankment Underground Station",
         "lines": "Northern",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -790,6 +882,8 @@
         "id": "940GZZLUEUS",
         "name": "Euston Underground Station",
         "lines": "Northern, Victoria",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -807,6 +901,8 @@
         "id": "940GZZLUFLP",
         "name": "Fairlop Underground Station",
         "lines": "Central",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -824,6 +920,8 @@
         "id": "940GZZLUFYC",
         "name": "Finchley Central Underground Station",
         "lines": "Northern",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -841,6 +939,8 @@
         "id": "940GZZLUFYR",
         "name": "Finchley Road Underground Station",
         "lines": "Jubilee",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -858,6 +958,8 @@
         "id": "940GZZLUFPK",
         "name": "Finsbury Park Underground Station",
         "lines": "Piccadilly, Victoria",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -875,6 +977,8 @@
         "id": "940GZZLUGTH",
         "name": "Gants Hill Underground Station",
         "lines": "Central",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -892,6 +996,8 @@
         "id": "940GZZLUGTR",
         "name": "Gloucester Road Underground Station",
         "lines": "Piccadilly",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -909,6 +1015,8 @@
         "id": "940GZZLUGGN",
         "name": "Golders Green Underground Station",
         "lines": "Northern",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -926,6 +1034,8 @@
         "id": "940GZZLUGDG",
         "name": "Goodge Street Underground Station",
         "lines": "Northern",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -943,6 +1053,8 @@
         "id": "940GZZLUGPK",
         "name": "Green Park Underground Station",
         "lines": "Jubilee, Piccadilly, Victoria",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -960,6 +1072,8 @@
         "id": "910GHAGGERS",
         "name": "Haggerston Rail Station",
         "lines": "Windrush",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -977,6 +1091,8 @@
         "id": "940GZZLUHLT",
         "name": "Hainault Underground Station",
         "lines": "Central",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -994,6 +1110,8 @@
         "id": "940GZZLUHSD",
         "name": "Hammersmith (Dist&Picc Line) Underground Station",
         "lines": "Piccadilly",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1011,6 +1129,8 @@
         "id": "940GZZLUHTD",
         "name": "Hampstead Underground Station",
         "lines": "Northern",
+        "zone": "2+3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1028,6 +1148,8 @@
         "id": "940GZZLUHNX",
         "name": "Hatton Cross Underground Station",
         "lines": "Piccadilly",
+        "zone": "5+6",
+        "zoneMax": 6,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1045,6 +1167,8 @@
         "id": "940GZZLUHR5",
         "name": "Heathrow Terminal 5 Underground Station",
         "lines": "Piccadilly",
+        "zone": "6",
+        "zoneMax": 6,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1062,6 +1186,8 @@
         "id": "940GZZLUHRC",
         "name": "Heathrow Terminals 2 & 3 Underground Station",
         "lines": "Piccadilly",
+        "zone": "6",
+        "zoneMax": 6,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1079,6 +1205,8 @@
         "id": "940GZZLUHCL",
         "name": "Hendon Central Underground Station",
         "lines": "Northern",
+        "zone": "3+4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1096,6 +1224,8 @@
         "id": "940GZZLUHBT",
         "name": "High Barnet Underground Station",
         "lines": "Northern",
+        "zone": "5",
+        "zoneMax": 5,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1113,6 +1243,8 @@
         "id": "910GHGHI",
         "name": "Highbury & Islington Rail Station",
         "lines": "Windrush",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1130,6 +1262,8 @@
         "id": "940GZZLUHAI",
         "name": "Highbury & Islington Underground Station",
         "lines": "Victoria",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1147,6 +1281,8 @@
         "id": "940GZZLUHGT",
         "name": "Highgate Underground Station",
         "lines": "Northern",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1164,6 +1300,8 @@
         "id": "940GZZLUHBN",
         "name": "Holborn Underground Station",
         "lines": "Central, Piccadilly",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1181,6 +1319,8 @@
         "id": "940GZZLUHPK",
         "name": "Holland Park Underground Station",
         "lines": "Central",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1198,6 +1338,8 @@
         "id": "940GZZLUHWY",
         "name": "Holloway Road Underground Station",
         "lines": "Piccadilly",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1215,6 +1357,8 @@
         "id": "940GZZLUHWC",
         "name": "Hounslow Central Underground Station",
         "lines": "Piccadilly",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1232,6 +1376,8 @@
         "id": "940GZZLUHWE",
         "name": "Hounslow East Underground Station",
         "lines": "Piccadilly",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1249,6 +1395,8 @@
         "id": "940GZZLUHWT",
         "name": "Hounslow West Underground Station",
         "lines": "Piccadilly",
+        "zone": "5",
+        "zoneMax": 5,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1266,6 +1414,8 @@
         "id": "910GHOXTON",
         "name": "Hoxton Rail Station",
         "lines": "Windrush",
+        "zone": "1+2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1283,6 +1433,8 @@
         "id": "940GZZLUHPC",
         "name": "Hyde Park Corner Underground Station",
         "lines": "Piccadilly",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1300,6 +1452,8 @@
         "id": "940GZZLUKNG",
         "name": "Kennington Underground Station",
         "lines": "Northern",
+        "zone": "1+2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1317,6 +1471,8 @@
         "id": "940GZZLUKSH",
         "name": "Kentish Town Underground Station",
         "lines": "Northern",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1334,6 +1490,8 @@
         "id": "940GZZLUKBN",
         "name": "Kilburn Underground Station",
         "lines": "Jubilee",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1351,6 +1509,8 @@
         "id": "940GZZLUKSX",
         "name": "King's Cross St. Pancras Underground Station",
         "lines": "Piccadilly, Victoria",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1368,6 +1528,8 @@
         "id": "940GZZLUKBY",
         "name": "Kingsbury Underground Station",
         "lines": "Jubilee",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1385,6 +1547,8 @@
         "id": "940GZZLUKNB",
         "name": "Knightsbridge Underground Station",
         "lines": "Piccadilly",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1402,6 +1566,8 @@
         "id": "940GZZLULGT",
         "name": "Lancaster Gate Underground Station",
         "lines": "Central",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1419,6 +1585,8 @@
         "id": "940GZZLULSQ",
         "name": "Leicester Square Underground Station",
         "lines": "Northern, Piccadilly",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1436,6 +1604,8 @@
         "id": "940GZZLULYN",
         "name": "Leyton Underground Station",
         "lines": "Central",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1453,6 +1623,8 @@
         "id": "940GZZLULYS",
         "name": "Leytonstone Underground Station",
         "lines": "Central",
+        "zone": "3+4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1470,6 +1642,8 @@
         "id": "940GZZLULVT",
         "name": "Liverpool Street Underground Station",
         "lines": "Central",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1487,6 +1661,8 @@
         "id": "940GZZLULNB",
         "name": "London Bridge Underground Station",
         "lines": "Jubilee",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1504,6 +1680,8 @@
         "id": "940GZZLULGN",
         "name": "Loughton Underground Station",
         "lines": "Central",
+        "zone": "6",
+        "zoneMax": 6,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1521,6 +1699,8 @@
         "id": "940GZZLUMRH",
         "name": "Manor House Underground Station",
         "lines": "Piccadilly",
+        "zone": "2+3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1538,6 +1718,8 @@
         "id": "940GZZLUMBA",
         "name": "Marble Arch Underground Station",
         "lines": "Central",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1555,6 +1737,8 @@
         "id": "940GZZLUMED",
         "name": "Mile End Underground Station",
         "lines": "Central",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1572,6 +1756,8 @@
         "id": "940GZZLUMDN",
         "name": "Morden Underground Station",
         "lines": "Northern",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1589,6 +1775,8 @@
         "id": "940GZZLUMTC",
         "name": "Mornington Crescent Underground Station",
         "lines": "Northern",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1606,6 +1794,8 @@
         "id": "940GZZLUNDN",
         "name": "Neasden Underground Station",
         "lines": "Jubilee",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1623,6 +1813,8 @@
         "id": "910GNEWXGTE",
         "name": "New Cross Gate Rail Station",
         "lines": "Windrush",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1640,6 +1832,8 @@
         "id": "940GZZLUNBP",
         "name": "Newbury Park Underground Station",
         "lines": "Central",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1657,6 +1851,8 @@
         "id": "940GZZLUNAN",
         "name": "North Acton Underground Station",
         "lines": "Central",
+        "zone": "2+3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1674,6 +1870,8 @@
         "id": "940GZZLUNGW",
         "name": "North Greenwich Underground Station",
         "lines": "Jubilee",
+        "zone": "2/3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1691,6 +1889,8 @@
         "id": "940GZZLUNFD",
         "name": "Northfields Underground Station",
         "lines": "Piccadilly",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1708,6 +1908,8 @@
         "id": "940GZZLUNHG",
         "name": "Notting Hill Gate Underground Station",
         "lines": "Central",
+        "zone": "1+2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1725,6 +1927,8 @@
         "id": "940GZZLUOAK",
         "name": "Oakwood Underground Station",
         "lines": "Piccadilly",
+        "zone": "5",
+        "zoneMax": 5,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1742,6 +1946,8 @@
         "id": "940GZZLUOSY",
         "name": "Osterley Underground Station",
         "lines": "Piccadilly",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1759,6 +1965,8 @@
         "id": "940GZZLUOVL",
         "name": "Oval Underground Station",
         "lines": "Northern",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1776,6 +1984,8 @@
         "id": "940GZZLUOXC",
         "name": "Oxford Circus Underground Station",
         "lines": "Central, Victoria",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1793,6 +2003,8 @@
         "id": "940GZZLUPCC",
         "name": "Piccadilly Circus Underground Station",
         "lines": "Piccadilly",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1810,6 +2022,8 @@
         "id": "940GZZLUPCO",
         "name": "Pimlico Underground Station",
         "lines": "Victoria",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1827,6 +2041,8 @@
         "id": "940GZZLUQBY",
         "name": "Queensbury Underground Station",
         "lines": "Jubilee",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1844,6 +2060,8 @@
         "id": "940GZZLUQWY",
         "name": "Queensway Underground Station",
         "lines": "Central",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1861,6 +2079,8 @@
         "id": "940GZZLURBG",
         "name": "Redbridge Underground Station",
         "lines": "Central",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1878,6 +2098,8 @@
         "id": "910GRTHERHI",
         "name": "Rotherhithe Rail Station",
         "lines": "Windrush",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1895,6 +2117,8 @@
         "id": "940GZZLURSQ",
         "name": "Russell Square Underground Station",
         "lines": "Piccadilly",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1912,6 +2136,8 @@
         "id": "940GZZLUSVS",
         "name": "Seven Sisters Underground Station",
         "lines": "Victoria",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1929,6 +2155,8 @@
         "id": "910GSHADWEL",
         "name": "Shadwell Rail Station",
         "lines": "Windrush",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1946,6 +2174,8 @@
         "id": "940GZZLUSBC",
         "name": "Shepherd's Bush (Central) Underground Station",
         "lines": "Central",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1963,6 +2193,8 @@
         "id": "910GSHRDHST",
         "name": "Shoreditch High Street Rail Station",
         "lines": "Windrush",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1980,6 +2212,8 @@
         "id": "940GZZLUSNB",
         "name": "Snaresbrook Underground Station",
         "lines": "Central",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -1997,6 +2231,8 @@
         "id": "940GZZLUSEA",
         "name": "South Ealing Underground Station",
         "lines": "Piccadilly",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2014,6 +2250,8 @@
         "id": "940GZZLUSKS",
         "name": "South Kensington Underground Station",
         "lines": "Piccadilly",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2031,6 +2269,8 @@
         "id": "940GZZLUSWN",
         "name": "South Wimbledon Underground Station",
         "lines": "Northern",
+        "zone": "3+4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2048,6 +2288,8 @@
         "id": "940GZZLUSWF",
         "name": "South Woodford Underground Station",
         "lines": "Central",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2065,6 +2307,8 @@
         "id": "940GZZLUSGT",
         "name": "Southgate Underground Station",
         "lines": "Piccadilly",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2082,6 +2326,8 @@
         "id": "940GZZLUSWK",
         "name": "Southwark Underground Station",
         "lines": "Jubilee",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2099,6 +2345,8 @@
         "id": "940GZZLUSJW",
         "name": "St. John's Wood Underground Station",
         "lines": "Jubilee",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2116,6 +2364,8 @@
         "id": "940GZZLUSPU",
         "name": "St. Paul's Underground Station",
         "lines": "Central",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2133,6 +2383,8 @@
         "id": "940GZZLUSTM",
         "name": "Stanmore Underground Station",
         "lines": "Jubilee",
+        "zone": "5",
+        "zoneMax": 5,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2150,6 +2402,8 @@
         "id": "940GZZLUSKW",
         "name": "Stockwell Underground Station",
         "lines": "Northern, Victoria",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2167,6 +2421,8 @@
         "id": "940GZZLUSTD",
         "name": "Stratford Underground Station",
         "lines": "Central, Jubilee",
+        "zone": "2/3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2184,6 +2440,8 @@
         "id": "910GSURREYQ",
         "name": "Surrey Quays Rail Station",
         "lines": "Windrush",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2201,6 +2459,8 @@
         "id": "940GZZLUSWC",
         "name": "Swiss Cottage Underground Station",
         "lines": "Jubilee",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2218,6 +2478,8 @@
         "id": "940GZZLUTBC",
         "name": "Tooting Bec Underground Station",
         "lines": "Northern",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2235,6 +2497,8 @@
         "id": "940GZZLUTBY",
         "name": "Tooting Broadway Underground Station",
         "lines": "Northern",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2252,6 +2516,8 @@
         "id": "940GZZLUTCR",
         "name": "Tottenham Court Road Underground Station",
         "lines": "Central, Northern",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2269,6 +2535,8 @@
         "id": "940GZZLUTMH",
         "name": "Tottenham Hale Underground Station",
         "lines": "Victoria",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2286,6 +2554,8 @@
         "id": "940GZZLUTAW",
         "name": "Totteridge & Whetstone Underground Station",
         "lines": "Northern",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2303,6 +2573,8 @@
         "id": "940GZZLUTFP",
         "name": "Tufnell Park Underground Station",
         "lines": "Northern",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2320,6 +2592,8 @@
         "id": "940GZZLUTNG",
         "name": "Turnham Green Underground Station",
         "lines": "Piccadilly",
+        "zone": "2+3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2337,6 +2611,8 @@
         "id": "940GZZLUTPN",
         "name": "Turnpike Lane Underground Station",
         "lines": "Piccadilly",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2354,6 +2630,8 @@
         "id": "940GZZLUVXL",
         "name": "Vauxhall Underground Station",
         "lines": "Victoria",
+        "zone": "1+2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2371,6 +2649,8 @@
         "id": "940GZZLUVIC",
         "name": "Victoria Underground Station",
         "lines": "Victoria",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2388,6 +2668,8 @@
         "id": "940GZZLUWWL",
         "name": "Walthamstow Central Underground Station",
         "lines": "Victoria",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2405,6 +2687,8 @@
         "id": "940GZZLUWSD",
         "name": "Wanstead Underground Station",
         "lines": "Central",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2422,6 +2706,8 @@
         "id": "910GWAPPING",
         "name": "Wapping Rail Station",
         "lines": "Windrush",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2439,6 +2725,8 @@
         "id": "940GZZLUWRR",
         "name": "Warren Street Underground Station",
         "lines": "Northern, Victoria",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2456,6 +2744,8 @@
         "id": "940GZZLUWLO",
         "name": "Waterloo Underground Station",
         "lines": "Jubilee, Northern",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2473,6 +2763,8 @@
         "id": "940GZZLUWYP",
         "name": "Wembley Park Underground Station",
         "lines": "Jubilee",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2490,6 +2782,8 @@
         "id": "940GZZLUWTA",
         "name": "West Acton Underground Station",
         "lines": "Central",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2507,6 +2801,8 @@
         "id": "940GZZLUWFN",
         "name": "West Finchley Underground Station",
         "lines": "Northern",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2524,6 +2820,8 @@
         "id": "940GZZLUWHM",
         "name": "West Ham Underground Station",
         "lines": "Jubilee",
+        "zone": "2/3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2541,6 +2839,8 @@
         "id": "940GZZLUWHP",
         "name": "West Hampstead Underground Station",
         "lines": "Jubilee",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2558,6 +2858,8 @@
         "id": "940GZZLUWSM",
         "name": "Westminster Underground Station",
         "lines": "Jubilee",
+        "zone": "1",
+        "zoneMax": 1,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2575,6 +2877,8 @@
         "id": "940GZZLUWCY",
         "name": "White City Underground Station",
         "lines": "Central",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2592,6 +2896,8 @@
         "id": "910GWCHAPEL",
         "name": "Whitechapel Rail Station",
         "lines": "Windrush",
+        "zone": "2",
+        "zoneMax": 2,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2609,6 +2915,8 @@
         "id": "940GZZLUWIG",
         "name": "Willesden Green Underground Station",
         "lines": "Jubilee",
+        "zone": "2+3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2626,6 +2934,8 @@
         "id": "940GZZLUWOG",
         "name": "Wood Green Underground Station",
         "lines": "Piccadilly",
+        "zone": "3",
+        "zoneMax": 3,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2643,6 +2953,8 @@
         "id": "940GZZLUWOF",
         "name": "Woodford Underground Station",
         "lines": "Central",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
@@ -2660,6 +2972,8 @@
         "id": "940GZZLUWOP",
         "name": "Woodside Park Underground Station",
         "lines": "Northern",
+        "zone": "4",
+        "zoneMax": 4,
         "source": "TfL Unified API"
       },
       "geometry": {
