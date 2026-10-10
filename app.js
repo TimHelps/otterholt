@@ -45,6 +45,30 @@ map.addControl(
   "bottom-left",
 );
 
+function collapseAutoExpandedAttribution() {
+  const container = map.getContainer().querySelector(".maplibregl-ctrl-attrib");
+  if (!container) return;
+
+  const collapse = () => {
+    if (
+      container.classList.contains("maplibregl-compact") &&
+      container.classList.contains("maplibregl-compact-show")
+    ) {
+      container.setAttribute("open", "");
+      container.classList.remove("maplibregl-compact-show");
+      return true;
+    }
+    return false;
+  };
+
+  if (collapse()) return;
+
+  const observer = new MutationObserver(() => {
+    if (collapse()) observer.disconnect();
+  });
+  observer.observe(container, { attributes: true, attributeFilter: ["class"] });
+}
+
 let allCandidates;
 let sales;
 let poolReach;
@@ -710,4 +734,7 @@ window.addEventListener("pageshow", () => {
   syncPanelUiFromStorage();
 });
 
-map.on("load", initialise);
+map.on("load", () => {
+  collapseAutoExpandedAttribution();
+  initialise();
+});
