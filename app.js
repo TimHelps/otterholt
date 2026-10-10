@@ -60,6 +60,7 @@ function setStatus(message, isError = false) {
 
 const mobilePanelQuery = window.matchMedia("(max-width: 600px)");
 const PANEL_EXPANDED_STORAGE_KEY = "otterholt-panel-expanded";
+const METHODOLOGY_OPEN_STORAGE_KEY = "otterholt-methodology-open";
 
 function isMobilePanel() {
   return mobilePanelQuery.matches;
@@ -89,9 +90,41 @@ function setPanelExpanded(expanded) {
   }
 }
 
+function methodologyOpenFromStorage() {
+  try {
+    return sessionStorage.getItem(METHODOLOGY_OPEN_STORAGE_KEY) === "1";
+  } catch {
+    return false;
+  }
+}
+
+function setMethodologyOpen(open, { persist = true } = {}) {
+  elements.methodology.hidden = !open;
+  elements.infoButton.setAttribute("aria-expanded", String(open));
+  if (persist) {
+    try {
+      sessionStorage.setItem(METHODOLOGY_OPEN_STORAGE_KEY, open ? "1" : "0");
+    } catch {
+      /* ignore */
+    }
+  }
+  if (open && isMobilePanel()) {
+    setPanelExpanded(true);
+  }
+}
+
+function applyMethodologyFromStorage() {
+  setMethodologyOpen(methodologyOpenFromStorage(), { persist: false });
+}
+
 function syncMobilePanelState() {
   if (!isMobilePanel()) return;
   setPanelExpanded(panelExpandedFromStorage());
+}
+
+function syncPanelUiFromStorage() {
+  applyMethodologyFromStorage();
+  syncMobilePanelState();
 }
 
 function updatePanelSummary(featureCount) {
@@ -652,12 +685,7 @@ async function initialise() {
 }
 
 elements.infoButton.addEventListener("click", () => {
-  const willOpen = elements.methodology.hidden;
-  elements.methodology.hidden = !willOpen;
-  elements.infoButton.setAttribute("aria-expanded", String(willOpen));
-  if (willOpen && isMobilePanel()) {
-    setPanelExpanded(true);
-  }
+  setMethodologyOpen(elements.methodology.hidden);
 });
 
 elements.panelToggle.addEventListener("click", () => {
@@ -676,6 +704,10 @@ mobilePanelQuery.addEventListener("change", (event) => {
   }
 });
 
-syncMobilePanelState();
+syncPanelUiFromStorage();
+
+window.addEventListener("pageshow", () => {
+  syncPanelUiFromStorage();
+});
 
 map.on("load", initialise);
