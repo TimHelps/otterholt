@@ -376,22 +376,9 @@ select:focus-visible {
     flex: 1;
     min-height: 0;
     margin-top: 4px;
-    padding-inline-end: 4px;
     overflow-y: auto;
     overscroll-behavior: contain;
-    scrollbar-gutter: stable;
-    scrollbar-width: thin;
-    scrollbar-color: rgb(65 85 77 / 40%) transparent;
     -webkit-overflow-scrolling: touch;
-  }
-
-  .control-panel[data-expanded="true"] .control-panel__body::-webkit-scrollbar {
-    width: 5px;
-  }
-
-  .control-panel[data-expanded="true"] .control-panel__body::-webkit-scrollbar-thumb {
-    border-radius: 999px;
-    background: rgb(65 85 77 / 38%);
   }
 
   .control-panel[data-expanded="true"] .panel-summary {
