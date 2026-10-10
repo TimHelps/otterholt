@@ -12,7 +12,7 @@ const elements = {
   priceHigh: document.querySelector("#price-high"),
   status: document.querySelector("#status"),
   controlPanel: document.querySelector("#control-panel"),
-  panelToggle: document.querySelector("#panel-toggle"),
+  panelHeader: document.querySelector("#panel-header"),
   panelSummary: document.querySelector("#panel-summary"),
   infoButton: document.querySelector("#info-button"),
   methodology: document.querySelector("#methodology"),
@@ -99,11 +99,7 @@ function panelExpandedFromStorage() {
 
 function setPanelExpanded(expanded) {
   elements.controlPanel.dataset.expanded = expanded ? "true" : "false";
-  elements.panelToggle.setAttribute("aria-expanded", String(expanded));
-  elements.panelToggle.setAttribute(
-    "aria-label",
-    expanded ? "Hide filters" : "Show filters",
-  );
+  elements.panelHeader.setAttribute("aria-expanded", String(expanded));
   if (isMobilePanel()) {
     try {
       sessionStorage.setItem(PANEL_EXPANDED_STORAGE_KEY, expanded ? "1" : "0");
@@ -684,13 +680,9 @@ elements.infoButton.addEventListener("click", () => {
   }
 });
 
-elements.panelToggle.addEventListener("click", () => {
-  setPanelExpanded(elements.controlPanel.dataset.expanded !== "true");
-});
-
-elements.controlPanel.querySelector(".panel-header").addEventListener("click", (event) => {
+elements.panelHeader.addEventListener("click", (event) => {
   if (!isMobilePanel()) return;
-  if (event.target.closest("#info-button, #panel-toggle")) return;
+  if (event.target.closest("#info-button")) return;
   setPanelExpanded(elements.controlPanel.dataset.expanded !== "true");
 });
 

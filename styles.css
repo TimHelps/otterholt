@@ -48,26 +48,6 @@ body {
   gap: 12px;
 }
 
-.panel-header-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.panel-toggle {
-  display: none;
-}
-
-.panel-chevron {
-  display: block;
-  width: 8px;
-  height: 8px;
-  border-right: 2px solid #29453b;
-  border-bottom: 2px solid #29453b;
-  transform: rotate(45deg);
-  transition: transform 0.15s ease;
-}
-
 .panel-summary {
   display: none;
   margin: 8px 0 0;
@@ -396,9 +376,22 @@ select:focus-visible {
     flex: 1;
     min-height: 0;
     margin-top: 4px;
+    padding-inline-end: 4px;
     overflow-y: auto;
     overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(65 85 77 / 40%) transparent;
     -webkit-overflow-scrolling: touch;
+  }
+
+  .control-panel[data-expanded="true"] .control-panel__body::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .control-panel[data-expanded="true"] .control-panel__body::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: rgb(65 85 77 / 38%);
   }
 
   .control-panel[data-expanded="true"] .panel-summary {
@@ -410,16 +403,8 @@ select:focus-visible {
     cursor: pointer;
   }
 
-  .panel-toggle {
-    display: grid;
-  }
-
   .panel-summary {
     display: block;
-  }
-
-  .control-panel[data-expanded="true"] .panel-chevron {
-    transform: rotate(-135deg);
   }
 
   .layer-toggles,
@@ -437,6 +422,12 @@ select:focus-visible {
   #map .maplibregl-ctrl-bottom-left,
   #map .maplibregl-ctrl-bottom-right {
     margin-bottom: calc(4.75rem + env(safe-area-inset-bottom, 0px));
+    transition: margin-bottom 0.2s ease;
+  }
+
+  main:has(.control-panel[data-expanded="true"]) #map .maplibregl-ctrl-bottom-left,
+  main:has(.control-panel[data-expanded="true"]) #map .maplibregl-ctrl-bottom-right {
+    margin-bottom: calc(min(50vh, 50dvh) + 0.75rem + env(safe-area-inset-bottom, 0px));
   }
 }
 

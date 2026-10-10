@@ -26,30 +26,23 @@
         aria-labelledby="map-title"
         data-expanded="false"
       >
-        <header class="panel-header">
+        <header
+          id="panel-header"
+          class="panel-header"
+          aria-controls="panel-body"
+          aria-expanded="false"
+        >
           <div class="title-row">
             <p class="eyebrow" id="map-title">Otterholt</p>
-            <div class="panel-header-actions">
-              <button
-                id="info-button"
-                class="icon-button"
-                type="button"
-                aria-label="Show methodology"
-                aria-expanded="false"
-              >
-                i
-              </button>
-              <button
-                id="panel-toggle"
-                class="panel-toggle icon-button"
-                type="button"
-                aria-controls="panel-body"
-                aria-expanded="false"
-                aria-label="Show filters"
-              >
-                <span class="panel-chevron" aria-hidden="true"></span>
-              </button>
-            </div>
+            <button
+              id="info-button"
+              class="icon-button"
+              type="button"
+              aria-label="Show methodology"
+              aria-expanded="false"
+            >
+              i
+            </button>
           </div>
           <p id="panel-summary" class="panel-summary">Loading filters…</p>
         </header>
