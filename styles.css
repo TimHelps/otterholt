@@ -295,10 +295,6 @@ select:focus-visible {
   color: #a42832;
 }
 
-.methodology[hidden] {
-  display: none !important;
-}
-
 .methodology {
   margin-top: 14px;
   padding-top: 12px;
