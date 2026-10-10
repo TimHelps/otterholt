@@ -59,9 +59,18 @@ function setStatus(message, isError = false) {
 }
 
 const mobilePanelQuery = window.matchMedia("(max-width: 600px)");
+const PANEL_EXPANDED_STORAGE_KEY = "otterholt-panel-expanded";
 
 function isMobilePanel() {
   return mobilePanelQuery.matches;
+}
+
+function panelExpandedFromStorage() {
+  try {
+    return sessionStorage.getItem(PANEL_EXPANDED_STORAGE_KEY) === "1";
+  } catch {
+    return false;
+  }
 }
 
 function setPanelExpanded(expanded) {
@@ -71,6 +80,18 @@ function setPanelExpanded(expanded) {
     "aria-label",
     expanded ? "Hide filters" : "Show filters",
   );
+  if (isMobilePanel()) {
+    try {
+      sessionStorage.setItem(PANEL_EXPANDED_STORAGE_KEY, expanded ? "1" : "0");
+    } catch {
+      /* ignore */
+    }
+  }
+}
+
+function syncMobilePanelState() {
+  if (!isMobilePanel()) return;
+  setPanelExpanded(panelExpandedFromStorage());
 }
 
 function updatePanelSummary(featureCount) {
@@ -649,8 +670,12 @@ elements.controlPanel.querySelector(".panel-header").addEventListener("click", (
   setPanelExpanded(elements.controlPanel.dataset.expanded !== "true");
 });
 
-mobilePanelQuery.addEventListener("change", () => {
-  setPanelExpanded(!isMobilePanel());
+mobilePanelQuery.addEventListener("change", (event) => {
+  if (event.matches) {
+    syncMobilePanelState();
+  }
 });
+
+syncMobilePanelState();
 
 map.on("load", initialise);
