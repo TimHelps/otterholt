@@ -37,11 +37,44 @@ body {
   backdrop-filter: blur(16px);
 }
 
+.panel-header {
+  margin: 0;
+}
+
 .title-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+}
+
+.panel-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.panel-toggle {
+  display: none;
+}
+
+.panel-chevron {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #29453b;
+  border-bottom: 2px solid #29453b;
+  transform: rotate(45deg);
+  transition: transform 0.15s ease;
+}
+
+.panel-summary {
+  display: none;
+  margin: 8px 0 0;
+  color: #40554d;
+  font-size: 0.76rem;
+  font-weight: 650;
+  line-height: 1.35;
 }
 
 .eyebrow {
@@ -337,11 +370,56 @@ select:focus-visible {
 
 @media (max-width: 600px) {
   .control-panel {
-    top: 10px;
-    left: 10px;
-    width: calc(100vw - 20px);
-    padding: 14px 16px;
-    border-radius: 16px;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-height: none;
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px));
+    border-right: none;
+    border-bottom: none;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .control-panel[data-expanded="true"] {
+    display: flex;
+    flex-direction: column;
+    max-height: min(50vh, 50dvh);
+  }
+
+  .control-panel:not([data-expanded="true"]) .control-panel__body {
+    display: none;
+  }
+
+  .control-panel[data-expanded="true"] .control-panel__body {
+    flex: 1;
+    min-height: 0;
+    margin-top: 4px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .control-panel[data-expanded="true"] .panel-summary {
+    display: none;
+  }
+
+  .panel-header {
+    flex: 0 0 auto;
+    cursor: pointer;
+  }
+
+  .panel-toggle {
+    display: grid;
+  }
+
+  .panel-summary {
+    display: block;
+  }
+
+  .control-panel[data-expanded="true"] .panel-chevron {
+    transform: rotate(-135deg);
   }
 
   .layer-toggles,
@@ -354,6 +432,11 @@ select:focus-visible {
 
   .title-row .eyebrow {
     margin-bottom: 0;
+  }
+
+  #map .maplibregl-ctrl-bottom-left,
+  #map .maplibregl-ctrl-bottom-right {
+    margin-bottom: calc(4.75rem + env(safe-area-inset-bottom, 0px));
   }
 }
 

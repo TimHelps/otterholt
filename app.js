@@ -11,6 +11,9 @@ const elements = {
   priceLow: document.querySelector("#price-low"),
   priceHigh: document.querySelector("#price-high"),
   status: document.querySelector("#status"),
+  controlPanel: document.querySelector("#control-panel"),
+  panelToggle: document.querySelector("#panel-toggle"),
+  panelSummary: document.querySelector("#panel-summary"),
   infoButton: document.querySelector("#info-button"),
   methodology: document.querySelector("#methodology"),
   layerToggles: document.querySelectorAll("[data-layer]"),
@@ -53,6 +56,27 @@ const contextMarkers = { stations: [], pools: [] };
 function setStatus(message, isError = false) {
   elements.status.textContent = message;
   elements.status.classList.toggle("error", isError);
+}
+
+const mobilePanelQuery = window.matchMedia("(max-width: 600px)");
+
+function isMobilePanel() {
+  return mobilePanelQuery.matches;
+}
+
+function setPanelExpanded(expanded) {
+  elements.controlPanel.dataset.expanded = expanded ? "true" : "false";
+  elements.panelToggle.setAttribute("aria-expanded", String(expanded));
+  elements.panelToggle.setAttribute(
+    "aria-label",
+    expanded ? "Hide filters" : "Show filters",
+  );
+}
+
+function updatePanelSummary(featureCount) {
+  const maxPrice = selectedMaxPrice();
+  const pricePart = maxPrice ? `≤${formatPrice(maxPrice, true)}` : "any price";
+  elements.panelSummary.textContent = `${elements.stationSelect.value} min tube · ${elements.poolSelect.value} min pool · ${pricePart} · ${featureCount.toLocaleString("en-GB")} districts`;
 }
 
 function fetchJson(path) {
@@ -219,6 +243,7 @@ function updateCandidates() {
   if (!enabledOperators.length) {
     map.getSource("candidates").setData({ type: "FeatureCollection", features: [] });
     setStatus("Select at least one pool operator to show matching districts.", true);
+    updatePanelSummary(0);
     updateUrl();
     return;
   }
@@ -358,6 +383,7 @@ function updateCandidates() {
   setStatus(
     `${features.length.toLocaleString("en-GB")} districts from ${postcodeCount.toLocaleString("en-GB")} qualifying postcodes · ${sales.meta.salePeriod}`,
   );
+  updatePanelSummary(features.length);
   updateUrl();
 }
 
@@ -608,6 +634,23 @@ elements.infoButton.addEventListener("click", () => {
   const willOpen = elements.methodology.hidden;
   elements.methodology.hidden = !willOpen;
   elements.infoButton.setAttribute("aria-expanded", String(willOpen));
+  if (willOpen && isMobilePanel()) {
+    setPanelExpanded(true);
+  }
+});
+
+elements.panelToggle.addEventListener("click", () => {
+  setPanelExpanded(elements.controlPanel.dataset.expanded !== "true");
+});
+
+elements.controlPanel.querySelector(".panel-header").addEventListener("click", (event) => {
+  if (!isMobilePanel()) return;
+  if (event.target.closest("#info-button, #panel-toggle")) return;
+  setPanelExpanded(elements.controlPanel.dataset.expanded !== "true");
+});
+
+mobilePanelQuery.addEventListener("change", () => {
+  setPanelExpanded(!isMobilePanel());
 });
 
 map.on("load", initialise);

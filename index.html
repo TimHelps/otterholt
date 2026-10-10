@@ -20,20 +20,41 @@
     <main>
       <div id="map" aria-label="Interactive map of candidate London postcode districts"></div>
 
-      <section class="control-panel" aria-labelledby="map-title">
-        <div class="title-row">
-          <p class="eyebrow" id="map-title">Otterholt</p>
-          <button
-            id="info-button"
-            class="icon-button"
-            type="button"
-            aria-label="Show methodology"
-            aria-expanded="false"
-          >
-            i
-          </button>
-        </div>
+      <section
+        id="control-panel"
+        class="control-panel"
+        aria-labelledby="map-title"
+        data-expanded="false"
+      >
+        <header class="panel-header">
+          <div class="title-row">
+            <p class="eyebrow" id="map-title">Otterholt</p>
+            <div class="panel-header-actions">
+              <button
+                id="info-button"
+                class="icon-button"
+                type="button"
+                aria-label="Show methodology"
+                aria-expanded="false"
+              >
+                i
+              </button>
+              <button
+                id="panel-toggle"
+                class="panel-toggle icon-button"
+                type="button"
+                aria-controls="panel-body"
+                aria-expanded="false"
+                aria-label="Show filters"
+              >
+                <span class="panel-chevron" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+          <p id="panel-summary" class="panel-summary">Loading filters…</p>
+        </header>
 
+        <div id="panel-body" class="control-panel__body">
         <div class="layer-toggles" aria-label="Map layers">
           <label>
             <input type="checkbox" data-layer="candidate-points" checked />
@@ -91,6 +112,7 @@
             maisonette sale during 2025–26. These are area indicators, not
             valuations of individual properties.
           </p>
+        </div>
         </div>
       </section>
     </main>
